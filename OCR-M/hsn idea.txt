@@ -1,0 +1,19 @@
+Between two HSNs
+
+find a combination where x*y = xy
+
+l1 = [0.05, 0.18, 0.12, 0.28]
+xy * l1  = ab
+ab/2
+
+
+x,y, xy, l1, ab
+
+
+
+
+IGST 5%    CGST = SGST = 2.5 %
+IGST 18%   CGST  = SGST  = 9%
+IGST 28%
+
+GST vendor gst first 2 digits and buyer gst if they are same that means it is within state so CGST/SGST will be applicable

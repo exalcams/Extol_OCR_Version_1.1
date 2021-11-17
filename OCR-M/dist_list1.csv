@@ -1,0 +1,1849 @@
+State,District,Level,Name,TRU
+0,0,India,India,Total
+0,0,India,India,Rural
+0,0,India,India,Urban
+1,0,State,JAMMU & KASHMIR,Total
+1,0,State,JAMMU & KASHMIR,Rural
+1,0,State,JAMMU & KASHMIR,Urban
+1,1,DISTRICT,Kupwara,Total
+1,1,DISTRICT,Kupwara,Rural
+1,1,DISTRICT,Kupwara,Urban
+1,2,DISTRICT,Badgam,Total
+1,2,DISTRICT,Badgam,Rural
+1,2,DISTRICT,Badgam,Urban
+1,3,DISTRICT,Leh(Ladakh),Total
+1,3,DISTRICT,Leh(Ladakh),Rural
+1,3,DISTRICT,Leh(Ladakh),Urban
+1,4,DISTRICT,Kargil,Total
+1,4,DISTRICT,Kargil,Rural
+1,4,DISTRICT,Kargil,Urban
+1,5,DISTRICT,Punch,Total
+1,5,DISTRICT,Punch,Rural
+1,5,DISTRICT,Punch,Urban
+1,6,DISTRICT,Rajouri,Total
+1,6,DISTRICT,Rajouri,Rural
+1,6,DISTRICT,Rajouri,Urban
+1,7,DISTRICT,Kathua,Total
+1,7,DISTRICT,Kathua,Rural
+1,7,DISTRICT,Kathua,Urban
+1,8,DISTRICT,Baramula,Total
+1,8,DISTRICT,Baramula,Rural
+1,8,DISTRICT,Baramula,Urban
+1,9,DISTRICT,Bandipore,Total
+1,9,DISTRICT,Bandipore,Rural
+1,9,DISTRICT,Bandipore,Urban
+1,10,DISTRICT,Srinagar,Total
+1,10,DISTRICT,Srinagar,Rural
+1,10,DISTRICT,Srinagar,Urban
+1,11,DISTRICT,Ganderbal,Total
+1,11,DISTRICT,Ganderbal,Rural
+1,11,DISTRICT,Ganderbal,Urban
+1,12,DISTRICT,Pulwama,Total
+1,12,DISTRICT,Pulwama,Rural
+1,12,DISTRICT,Pulwama,Urban
+1,13,DISTRICT,Shupiyan,Total
+1,13,DISTRICT,Shupiyan,Rural
+1,13,DISTRICT,Shupiyan,Urban
+1,14,DISTRICT,Anantnag,Total
+1,14,DISTRICT,Anantnag,Rural
+1,14,DISTRICT,Anantnag,Urban
+1,15,DISTRICT,Kulgam,Total
+1,15,DISTRICT,Kulgam,Rural
+1,15,DISTRICT,Kulgam,Urban
+1,16,DISTRICT,Doda,Total
+1,16,DISTRICT,Doda,Rural
+1,16,DISTRICT,Doda,Urban
+1,17,DISTRICT,Ramban,Total
+1,17,DISTRICT,Ramban,Rural
+1,17,DISTRICT,Ramban,Urban
+1,18,DISTRICT,Kishtwar,Total
+1,18,DISTRICT,Kishtwar,Rural
+1,18,DISTRICT,Kishtwar,Urban
+1,19,DISTRICT,Udhampur,Total
+1,19,DISTRICT,Udhampur,Rural
+1,19,DISTRICT,Udhampur,Urban
+1,20,DISTRICT,Reasi,Total
+1,20,DISTRICT,Reasi,Rural
+1,20,DISTRICT,Reasi,Urban
+1,21,DISTRICT,Jammu,Total
+1,21,DISTRICT,Jammu,Rural
+1,21,DISTRICT,Jammu,Urban
+1,22,DISTRICT,Samba,Total
+1,22,DISTRICT,Samba,Rural
+1,22,DISTRICT,Samba,Urban
+2,0,State,HIMACHAL PRADESH,Total
+2,0,State,HIMACHAL PRADESH,Rural
+2,0,State,HIMACHAL PRADESH,Urban
+2,23,DISTRICT,Chamba,Total
+2,23,DISTRICT,Chamba,Rural
+2,23,DISTRICT,Chamba,Urban
+2,24,DISTRICT,Kangra,Total
+2,24,DISTRICT,Kangra,Rural
+2,24,DISTRICT,Kangra,Urban
+2,25,DISTRICT,Lahul & Spiti,Total
+2,25,DISTRICT,Lahul & Spiti,Rural
+2,25,DISTRICT,Lahul & Spiti,Urban
+2,26,DISTRICT,Kullu,Total
+2,26,DISTRICT,Kullu,Rural
+2,26,DISTRICT,Kullu,Urban
+2,27,DISTRICT,Mandi,Total
+2,27,DISTRICT,Mandi,Rural
+2,27,DISTRICT,Mandi,Urban
+2,28,DISTRICT,Hamirpur,Total
+2,28,DISTRICT,Hamirpur,Rural
+2,28,DISTRICT,Hamirpur,Urban
+2,29,DISTRICT,Una,Total
+2,29,DISTRICT,Una,Rural
+2,29,DISTRICT,Una,Urban
+2,30,DISTRICT,Bilaspur,Total
+2,30,DISTRICT,Bilaspur,Rural
+2,30,DISTRICT,Bilaspur,Urban
+2,31,DISTRICT,Solan,Total
+2,31,DISTRICT,Solan,Rural
+2,31,DISTRICT,Solan,Urban
+2,32,DISTRICT,Sirmaur,Total
+2,32,DISTRICT,Sirmaur,Rural
+2,32,DISTRICT,Sirmaur,Urban
+2,33,DISTRICT,Shimla,Total
+2,33,DISTRICT,Shimla,Rural
+2,33,DISTRICT,Shimla,Urban
+2,34,DISTRICT,Kinnaur,Total
+2,34,DISTRICT,Kinnaur,Rural
+2,34,DISTRICT,Kinnaur,Urban
+5,0,State,UTTARAKHAND,Total
+5,0,State,UTTARAKHAND,Rural
+5,0,State,UTTARAKHAND,Urban
+5,56,DISTRICT,Uttarkashi,Total
+5,56,DISTRICT,Uttarkashi,Rural
+5,56,DISTRICT,Uttarkashi,Urban
+5,57,DISTRICT,Chamoli,Total
+5,57,DISTRICT,Chamoli,Rural
+5,57,DISTRICT,Chamoli,Urban
+5,58,DISTRICT,Rudraprayag,Total
+5,58,DISTRICT,Rudraprayag,Rural
+5,58,DISTRICT,Rudraprayag,Urban
+5,59,DISTRICT,Tehri Garhwal,Total
+5,59,DISTRICT,Tehri Garhwal,Rural
+5,59,DISTRICT,Tehri Garhwal,Urban
+5,60,DISTRICT,Dehradun,Total
+5,60,DISTRICT,Dehradun,Rural
+5,60,DISTRICT,Dehradun,Urban
+5,61,DISTRICT,Garhwal,Total
+5,61,DISTRICT,Garhwal,Rural
+5,61,DISTRICT,Garhwal,Urban
+5,62,DISTRICT,Pithoragarh,Total
+5,62,DISTRICT,Pithoragarh,Rural
+5,62,DISTRICT,Pithoragarh,Urban
+5,63,DISTRICT,Bageshwar,Total
+5,63,DISTRICT,Bageshwar,Rural
+5,63,DISTRICT,Bageshwar,Urban
+5,64,DISTRICT,Almora,Total
+5,64,DISTRICT,Almora,Rural
+5,64,DISTRICT,Almora,Urban
+5,65,DISTRICT,Champawat,Total
+5,65,DISTRICT,Champawat,Rural
+5,65,DISTRICT,Champawat,Urban
+5,66,DISTRICT,Nainital,Total
+5,66,DISTRICT,Nainital,Rural
+5,66,DISTRICT,Nainital,Urban
+5,67,DISTRICT,Udham Singh Nagar,Total
+5,67,DISTRICT,Udham Singh Nagar,Rural
+5,67,DISTRICT,Udham Singh Nagar,Urban
+5,68,DISTRICT,Hardwar,Total
+5,68,DISTRICT,Hardwar,Rural
+5,68,DISTRICT,Hardwar,Urban
+8,0,State,RAJASTHAN,Total
+8,0,State,RAJASTHAN,Rural
+8,0,State,RAJASTHAN,Urban
+8,99,DISTRICT,Ganganagar ,Total
+8,99,DISTRICT,Ganganagar ,Rural
+8,99,DISTRICT,Ganganagar ,Urban
+8,100,DISTRICT,Hanumangarh,Total
+8,100,DISTRICT,Hanumangarh,Rural
+8,100,DISTRICT,Hanumangarh,Urban
+8,101,DISTRICT,Bikaner,Total
+8,101,DISTRICT,Bikaner,Rural
+8,101,DISTRICT,Bikaner,Urban
+8,102,DISTRICT,Churu,Total
+8,102,DISTRICT,Churu,Rural
+8,102,DISTRICT,Churu,Urban
+8,103,DISTRICT,Jhunjhunun,Total
+8,103,DISTRICT,Jhunjhunun,Rural
+8,103,DISTRICT,Jhunjhunun,Urban
+8,104,DISTRICT,Alwar,Total
+8,104,DISTRICT,Alwar,Rural
+8,104,DISTRICT,Alwar,Urban
+8,105,DISTRICT,Bharatpur,Total
+8,105,DISTRICT,Bharatpur,Rural
+8,105,DISTRICT,Bharatpur,Urban
+8,106,DISTRICT,Dhaulpur,Total
+8,106,DISTRICT,Dhaulpur,Rural
+8,106,DISTRICT,Dhaulpur,Urban
+8,107,DISTRICT,Karauli,Total
+8,107,DISTRICT,Karauli,Rural
+8,107,DISTRICT,Karauli,Urban
+8,108,DISTRICT,Sawai Madhopur,Total
+8,108,DISTRICT,Sawai Madhopur,Rural
+8,108,DISTRICT,Sawai Madhopur,Urban
+8,109,DISTRICT,Dausa,Total
+8,109,DISTRICT,Dausa,Rural
+8,109,DISTRICT,Dausa,Urban
+8,110,DISTRICT,Jaipur,Total
+8,110,DISTRICT,Jaipur,Rural
+8,110,DISTRICT,Jaipur,Urban
+8,111,DISTRICT,Sikar,Total
+8,111,DISTRICT,Sikar,Rural
+8,111,DISTRICT,Sikar,Urban
+8,112,DISTRICT,Nagaur,Total
+8,112,DISTRICT,Nagaur,Rural
+8,112,DISTRICT,Nagaur,Urban
+8,113,DISTRICT,Jodhpur,Total
+8,113,DISTRICT,Jodhpur,Rural
+8,113,DISTRICT,Jodhpur,Urban
+8,114,DISTRICT,Jaisalmer,Total
+8,114,DISTRICT,Jaisalmer,Rural
+8,114,DISTRICT,Jaisalmer,Urban
+8,115,DISTRICT,Barmer,Total
+8,115,DISTRICT,Barmer,Rural
+8,115,DISTRICT,Barmer,Urban
+8,116,DISTRICT,Jalor,Total
+8,116,DISTRICT,Jalor,Rural
+8,116,DISTRICT,Jalor,Urban
+8,117,DISTRICT,Sirohi,Total
+8,117,DISTRICT,Sirohi,Rural
+8,117,DISTRICT,Sirohi,Urban
+8,118,DISTRICT,Pali,Total
+8,118,DISTRICT,Pali,Rural
+8,118,DISTRICT,Pali,Urban
+8,119,DISTRICT,Ajmer,Total
+8,119,DISTRICT,Ajmer,Rural
+8,119,DISTRICT,Ajmer,Urban
+8,120,DISTRICT,Tonk,Total
+8,120,DISTRICT,Tonk,Rural
+8,120,DISTRICT,Tonk,Urban
+8,121,DISTRICT,Bundi,Total
+8,121,DISTRICT,Bundi,Rural
+8,121,DISTRICT,Bundi,Urban
+8,122,DISTRICT,Bhilwara,Total
+8,122,DISTRICT,Bhilwara,Rural
+8,122,DISTRICT,Bhilwara,Urban
+8,123,DISTRICT,Rajsamand,Total
+8,123,DISTRICT,Rajsamand,Rural
+8,123,DISTRICT,Rajsamand,Urban
+8,124,DISTRICT,Dungarpur,Total
+8,124,DISTRICT,Dungarpur,Rural
+8,124,DISTRICT,Dungarpur,Urban
+8,125,DISTRICT,Banswara,Total
+8,125,DISTRICT,Banswara,Rural
+8,125,DISTRICT,Banswara,Urban
+8,126,DISTRICT,Chittaurgarh,Total
+8,126,DISTRICT,Chittaurgarh,Rural
+8,126,DISTRICT,Chittaurgarh,Urban
+8,127,DISTRICT,Kota,Total
+8,127,DISTRICT,Kota,Rural
+8,127,DISTRICT,Kota,Urban
+8,128,DISTRICT,Baran,Total
+8,128,DISTRICT,Baran,Rural
+8,128,DISTRICT,Baran,Urban
+8,129,DISTRICT,Jhalawar,Total
+8,129,DISTRICT,Jhalawar,Rural
+8,129,DISTRICT,Jhalawar,Urban
+8,130,DISTRICT,Udaipur,Total
+8,130,DISTRICT,Udaipur,Rural
+8,130,DISTRICT,Udaipur,Urban
+8,131,DISTRICT,Pratapgarh,Total
+8,131,DISTRICT,Pratapgarh,Rural
+8,131,DISTRICT,Pratapgarh,Urban
+9,0,State,UTTAR PRADESH,Total
+9,0,State,UTTAR PRADESH,Rural
+9,0,State,UTTAR PRADESH,Urban
+9,132,DISTRICT,Saharanpur,Total
+9,132,DISTRICT,Saharanpur,Rural
+9,132,DISTRICT,Saharanpur,Urban
+9,133,DISTRICT,Muzaffarnagar,Total
+9,133,DISTRICT,Muzaffarnagar,Rural
+9,133,DISTRICT,Muzaffarnagar,Urban
+9,134,DISTRICT,Bijnor,Total
+9,134,DISTRICT,Bijnor,Rural
+9,134,DISTRICT,Bijnor,Urban
+9,135,DISTRICT,Moradabad,Total
+9,135,DISTRICT,Moradabad,Rural
+9,135,DISTRICT,Moradabad,Urban
+9,136,DISTRICT,Rampur,Total
+9,136,DISTRICT,Rampur,Rural
+9,136,DISTRICT,Rampur,Urban
+9,137,DISTRICT,Jyotiba Phule Nagar,Total
+9,137,DISTRICT,Jyotiba Phule Nagar,Rural
+9,137,DISTRICT,Jyotiba Phule Nagar,Urban
+9,138,DISTRICT,Meerut,Total
+9,138,DISTRICT,Meerut,Rural
+9,138,DISTRICT,Meerut,Urban
+9,139,DISTRICT,Baghpat,Total
+9,139,DISTRICT,Baghpat,Rural
+9,139,DISTRICT,Baghpat,Urban
+9,140,DISTRICT,Ghaziabad,Total
+9,140,DISTRICT,Ghaziabad,Rural
+9,140,DISTRICT,Ghaziabad,Urban
+9,141,DISTRICT,Gautam Buddha Nagar,Total
+9,141,DISTRICT,Gautam Buddha Nagar,Rural
+9,141,DISTRICT,Gautam Buddha Nagar,Urban
+9,142,DISTRICT,Bulandshahr ,Total
+9,142,DISTRICT,Bulandshahr ,Rural
+9,142,DISTRICT,Bulandshahr ,Urban
+9,143,DISTRICT,Aligarh,Total
+9,143,DISTRICT,Aligarh,Rural
+9,143,DISTRICT,Aligarh,Urban
+9,144,DISTRICT,Mahamaya Nagar,Total
+9,144,DISTRICT,Mahamaya Nagar,Rural
+9,144,DISTRICT,Mahamaya Nagar,Urban
+9,145,DISTRICT,Mathura,Total
+9,145,DISTRICT,Mathura,Rural
+9,145,DISTRICT,Mathura,Urban
+9,146,DISTRICT,Agra,Total
+9,146,DISTRICT,Agra,Rural
+9,146,DISTRICT,Agra,Urban
+9,147,DISTRICT,Firozabad,Total
+9,147,DISTRICT,Firozabad,Rural
+9,147,DISTRICT,Firozabad,Urban
+9,148,DISTRICT,Mainpuri,Total
+9,148,DISTRICT,Mainpuri,Rural
+9,148,DISTRICT,Mainpuri,Urban
+9,149,DISTRICT,Budaun,Total
+9,149,DISTRICT,Budaun,Rural
+9,149,DISTRICT,Budaun,Urban
+9,150,DISTRICT,Bareilly,Total
+9,150,DISTRICT,Bareilly,Rural
+9,150,DISTRICT,Bareilly,Urban
+9,151,DISTRICT,Pilibhit,Total
+9,151,DISTRICT,Pilibhit,Rural
+9,151,DISTRICT,Pilibhit,Urban
+9,152,DISTRICT,Shahjahanpur,Total
+9,152,DISTRICT,Shahjahanpur,Rural
+9,152,DISTRICT,Shahjahanpur,Urban
+9,153,DISTRICT,Kheri,Total
+9,153,DISTRICT,Kheri,Rural
+9,153,DISTRICT,Kheri,Urban
+9,154,DISTRICT,Sitapur,Total
+9,154,DISTRICT,Sitapur,Rural
+9,154,DISTRICT,Sitapur,Urban
+9,155,DISTRICT,Hardoi,Total
+9,155,DISTRICT,Hardoi,Rural
+9,155,DISTRICT,Hardoi,Urban
+9,156,DISTRICT,Unnao,Total
+9,156,DISTRICT,Unnao,Rural
+9,156,DISTRICT,Unnao,Urban
+9,157,DISTRICT,Lucknow,Total
+9,157,DISTRICT,Lucknow,Rural
+9,157,DISTRICT,Lucknow,Urban
+9,158,DISTRICT,Rae Bareli,Total
+9,158,DISTRICT,Rae Bareli,Rural
+9,158,DISTRICT,Rae Bareli,Urban
+9,159,DISTRICT,Farrukhabad,Total
+9,159,DISTRICT,Farrukhabad,Rural
+9,159,DISTRICT,Farrukhabad,Urban
+9,160,DISTRICT,Kannauj,Total
+9,160,DISTRICT,Kannauj,Rural
+9,160,DISTRICT,Kannauj,Urban
+9,161,DISTRICT,Etawah,Total
+9,161,DISTRICT,Etawah,Rural
+9,161,DISTRICT,Etawah,Urban
+9,162,DISTRICT,Auraiya,Total
+9,162,DISTRICT,Auraiya,Rural
+9,162,DISTRICT,Auraiya,Urban
+9,163,DISTRICT,Kanpur Dehat,Total
+9,163,DISTRICT,Kanpur Dehat,Rural
+9,163,DISTRICT,Kanpur Dehat,Urban
+9,164,DISTRICT,Kanpur Nagar,Total
+9,164,DISTRICT,Kanpur Nagar,Rural
+9,164,DISTRICT,Kanpur Nagar,Urban
+9,165,DISTRICT,Jalaun ,Total
+9,165,DISTRICT,Jalaun ,Rural
+9,165,DISTRICT,Jalaun ,Urban
+9,166,DISTRICT,Jhansi,Total
+9,166,DISTRICT,Jhansi,Rural
+9,166,DISTRICT,Jhansi,Urban
+9,167,DISTRICT,Lalitpur,Total
+9,167,DISTRICT,Lalitpur,Rural
+9,167,DISTRICT,Lalitpur,Urban
+9,168,DISTRICT,Hamirpur,Total
+9,168,DISTRICT,Hamirpur,Rural
+9,168,DISTRICT,Hamirpur,Urban
+9,169,DISTRICT,Mahoba,Total
+9,169,DISTRICT,Mahoba,Rural
+9,169,DISTRICT,Mahoba,Urban
+9,170,DISTRICT,Banda,Total
+9,170,DISTRICT,Banda,Rural
+9,170,DISTRICT,Banda,Urban
+9,171,DISTRICT,Chitrakoot,Total
+9,171,DISTRICT,Chitrakoot,Rural
+9,171,DISTRICT,Chitrakoot,Urban
+9,172,DISTRICT,Fatehpur,Total
+9,172,DISTRICT,Fatehpur,Rural
+9,172,DISTRICT,Fatehpur,Urban
+9,173,DISTRICT,Pratapgarh,Total
+9,173,DISTRICT,Pratapgarh,Rural
+9,173,DISTRICT,Pratapgarh,Urban
+9,174,DISTRICT,Kaushambi,Total
+9,174,DISTRICT,Kaushambi,Rural
+9,174,DISTRICT,Kaushambi,Urban
+9,175,DISTRICT,Allahabad ,Total
+9,175,DISTRICT,Allahabad ,Rural
+9,175,DISTRICT,Allahabad ,Urban
+9,176,DISTRICT,Bara Banki,Total
+9,176,DISTRICT,Bara Banki,Rural
+9,176,DISTRICT,Bara Banki,Urban
+9,177,DISTRICT,Faizabad,Total
+9,177,DISTRICT,Faizabad,Rural
+9,177,DISTRICT,Faizabad,Urban
+9,178,DISTRICT,Ambedkar Nagar,Total
+9,178,DISTRICT,Ambedkar Nagar,Rural
+9,178,DISTRICT,Ambedkar Nagar,Urban
+9,179,DISTRICT,Sultanpur,Total
+9,179,DISTRICT,Sultanpur,Rural
+9,179,DISTRICT,Sultanpur,Urban
+9,180,DISTRICT,Bahraich,Total
+9,180,DISTRICT,Bahraich,Rural
+9,180,DISTRICT,Bahraich,Urban
+9,181,DISTRICT,Shrawasti,Total
+9,181,DISTRICT,Shrawasti,Rural
+9,181,DISTRICT,Shrawasti,Urban
+9,182,DISTRICT,Balrampur,Total
+9,182,DISTRICT,Balrampur,Rural
+9,182,DISTRICT,Balrampur,Urban
+9,183,DISTRICT,Gonda,Total
+9,183,DISTRICT,Gonda,Rural
+9,183,DISTRICT,Gonda,Urban
+9,184,DISTRICT,Siddharthnagar,Total
+9,184,DISTRICT,Siddharthnagar,Rural
+9,184,DISTRICT,Siddharthnagar,Urban
+9,185,DISTRICT,Basti,Total
+9,185,DISTRICT,Basti,Rural
+9,185,DISTRICT,Basti,Urban
+9,186,DISTRICT,Sant Kabir Nagar,Total
+9,186,DISTRICT,Sant Kabir Nagar,Rural
+9,186,DISTRICT,Sant Kabir Nagar,Urban
+9,187,DISTRICT,Mahrajganj,Total
+9,187,DISTRICT,Mahrajganj,Rural
+9,187,DISTRICT,Mahrajganj,Urban
+9,188,DISTRICT,Gorakhpur,Total
+9,188,DISTRICT,Gorakhpur,Rural
+9,188,DISTRICT,Gorakhpur,Urban
+9,189,DISTRICT,Kushinagar,Total
+9,189,DISTRICT,Kushinagar,Rural
+9,189,DISTRICT,Kushinagar,Urban
+9,190,DISTRICT,Deoria,Total
+9,190,DISTRICT,Deoria,Rural
+9,190,DISTRICT,Deoria,Urban
+9,191,DISTRICT,Azamgarh,Total
+9,191,DISTRICT,Azamgarh,Rural
+9,191,DISTRICT,Azamgarh,Urban
+9,192,DISTRICT,Mau,Total
+9,192,DISTRICT,Mau,Rural
+9,192,DISTRICT,Mau,Urban
+9,193,DISTRICT,Ballia,Total
+9,193,DISTRICT,Ballia,Rural
+9,193,DISTRICT,Ballia,Urban
+9,194,DISTRICT,Jaunpur,Total
+9,194,DISTRICT,Jaunpur,Rural
+9,194,DISTRICT,Jaunpur,Urban
+9,195,DISTRICT,Ghazipur,Total
+9,195,DISTRICT,Ghazipur,Rural
+9,195,DISTRICT,Ghazipur,Urban
+9,196,DISTRICT,Chandauli,Total
+9,196,DISTRICT,Chandauli,Rural
+9,196,DISTRICT,Chandauli,Urban
+9,197,DISTRICT,Varanasi,Total
+9,197,DISTRICT,Varanasi,Rural
+9,197,DISTRICT,Varanasi,Urban
+9,198,DISTRICT,Sant Ravidas Nagar (Bhadohi),Total
+9,198,DISTRICT,Sant Ravidas Nagar (Bhadohi),Rural
+9,198,DISTRICT,Sant Ravidas Nagar (Bhadohi),Urban
+9,199,DISTRICT,Mirzapur,Total
+9,199,DISTRICT,Mirzapur,Rural
+9,199,DISTRICT,Mirzapur,Urban
+9,200,DISTRICT,Sonbhadra,Total
+9,200,DISTRICT,Sonbhadra,Rural
+9,200,DISTRICT,Sonbhadra,Urban
+9,201,DISTRICT,Etah,Total
+9,201,DISTRICT,Etah,Rural
+9,201,DISTRICT,Etah,Urban
+9,202,DISTRICT,Kanshiram Nagar,Total
+9,202,DISTRICT,Kanshiram Nagar,Rural
+9,202,DISTRICT,Kanshiram Nagar,Urban
+10,0,State,BIHAR,Total
+10,0,State,BIHAR,Rural
+10,0,State,BIHAR,Urban
+10,203,DISTRICT,Pashchim Champaran,Total
+10,203,DISTRICT,Pashchim Champaran,Rural
+10,203,DISTRICT,Pashchim Champaran,Urban
+10,204,DISTRICT,Purba Champaran,Total
+10,204,DISTRICT,Purba Champaran,Rural
+10,204,DISTRICT,Purba Champaran,Urban
+10,205,DISTRICT,Sheohar,Total
+10,205,DISTRICT,Sheohar,Rural
+10,205,DISTRICT,Sheohar,Urban
+10,206,DISTRICT,Sitamarhi,Total
+10,206,DISTRICT,Sitamarhi,Rural
+10,206,DISTRICT,Sitamarhi,Urban
+10,207,DISTRICT,Madhubani,Total
+10,207,DISTRICT,Madhubani,Rural
+10,207,DISTRICT,Madhubani,Urban
+10,208,DISTRICT,Supaul,Total
+10,208,DISTRICT,Supaul,Rural
+10,208,DISTRICT,Supaul,Urban
+10,209,DISTRICT,Araria,Total
+10,209,DISTRICT,Araria,Rural
+10,209,DISTRICT,Araria,Urban
+10,210,DISTRICT,Kishanganj,Total
+10,210,DISTRICT,Kishanganj,Rural
+10,210,DISTRICT,Kishanganj,Urban
+10,211,DISTRICT,Purnia,Total
+10,211,DISTRICT,Purnia,Rural
+10,211,DISTRICT,Purnia,Urban
+10,212,DISTRICT,Katihar,Total
+10,212,DISTRICT,Katihar,Rural
+10,212,DISTRICT,Katihar,Urban
+10,213,DISTRICT,Madhepura,Total
+10,213,DISTRICT,Madhepura,Rural
+10,213,DISTRICT,Madhepura,Urban
+10,214,DISTRICT,Saharsa,Total
+10,214,DISTRICT,Saharsa,Rural
+10,214,DISTRICT,Saharsa,Urban
+10,215,DISTRICT,Darbhanga,Total
+10,215,DISTRICT,Darbhanga,Rural
+10,215,DISTRICT,Darbhanga,Urban
+10,216,DISTRICT,Muzaffarpur,Total
+10,216,DISTRICT,Muzaffarpur,Rural
+10,216,DISTRICT,Muzaffarpur,Urban
+10,217,DISTRICT,Gopalganj,Total
+10,217,DISTRICT,Gopalganj,Rural
+10,217,DISTRICT,Gopalganj,Urban
+10,218,DISTRICT,Siwan,Total
+10,218,DISTRICT,Siwan,Rural
+10,218,DISTRICT,Siwan,Urban
+10,219,DISTRICT,Saran,Total
+10,219,DISTRICT,Saran,Rural
+10,219,DISTRICT,Saran,Urban
+10,220,DISTRICT,Vaishali,Total
+10,220,DISTRICT,Vaishali,Rural
+10,220,DISTRICT,Vaishali,Urban
+10,221,DISTRICT,Samastipur,Total
+10,221,DISTRICT,Samastipur,Rural
+10,221,DISTRICT,Samastipur,Urban
+10,222,DISTRICT,Begusarai,Total
+10,222,DISTRICT,Begusarai,Rural
+10,222,DISTRICT,Begusarai,Urban
+10,223,DISTRICT,Khagaria,Total
+10,223,DISTRICT,Khagaria,Rural
+10,223,DISTRICT,Khagaria,Urban
+10,224,DISTRICT,Bhagalpur,Total
+10,224,DISTRICT,Bhagalpur,Rural
+10,224,DISTRICT,Bhagalpur,Urban
+10,225,DISTRICT,Banka,Total
+10,225,DISTRICT,Banka,Rural
+10,225,DISTRICT,Banka,Urban
+10,226,DISTRICT,Munger,Total
+10,226,DISTRICT,Munger,Rural
+10,226,DISTRICT,Munger,Urban
+10,227,DISTRICT,Lakhisarai,Total
+10,227,DISTRICT,Lakhisarai,Rural
+10,227,DISTRICT,Lakhisarai,Urban
+10,228,DISTRICT,Sheikhpura,Total
+10,228,DISTRICT,Sheikhpura,Rural
+10,228,DISTRICT,Sheikhpura,Urban
+10,229,DISTRICT,Nalanda,Total
+10,229,DISTRICT,Nalanda,Rural
+10,229,DISTRICT,Nalanda,Urban
+10,230,DISTRICT,Patna,Total
+10,230,DISTRICT,Patna,Rural
+10,230,DISTRICT,Patna,Urban
+10,231,DISTRICT,Bhojpur,Total
+10,231,DISTRICT,Bhojpur,Rural
+10,231,DISTRICT,Bhojpur,Urban
+10,232,DISTRICT,Buxar,Total
+10,232,DISTRICT,Buxar,Rural
+10,232,DISTRICT,Buxar,Urban
+10,233,DISTRICT,Kaimur (Bhabua),Total
+10,233,DISTRICT,Kaimur (Bhabua),Rural
+10,233,DISTRICT,Kaimur (Bhabua),Urban
+10,234,DISTRICT,Rohtas,Total
+10,234,DISTRICT,Rohtas,Rural
+10,234,DISTRICT,Rohtas,Urban
+10,235,DISTRICT,Aurangabad,Total
+10,235,DISTRICT,Aurangabad,Rural
+10,235,DISTRICT,Aurangabad,Urban
+10,236,DISTRICT,Gaya,Total
+10,236,DISTRICT,Gaya,Rural
+10,236,DISTRICT,Gaya,Urban
+10,237,DISTRICT,Nawada,Total
+10,237,DISTRICT,Nawada,Rural
+10,237,DISTRICT,Nawada,Urban
+10,238,DISTRICT,Jamui,Total
+10,238,DISTRICT,Jamui,Rural
+10,238,DISTRICT,Jamui,Urban
+10,239,DISTRICT,Jehanabad ,Total
+10,239,DISTRICT,Jehanabad ,Rural
+10,239,DISTRICT,Jehanabad ,Urban
+10,240,DISTRICT,Arwal,Total
+10,240,DISTRICT,Arwal,Rural
+10,240,DISTRICT,Arwal,Urban
+11,0,State,SIKKIM,Total
+11,0,State,SIKKIM,Rural
+11,0,State,SIKKIM,Urban
+11,241,DISTRICT,North  District,Total
+11,241,DISTRICT,North  District,Rural
+11,241,DISTRICT,North  District,Urban
+11,242,DISTRICT,West District,Total
+11,242,DISTRICT,West District,Rural
+11,242,DISTRICT,West District,Urban
+11,243,DISTRICT,South District,Total
+11,243,DISTRICT,South District,Rural
+11,243,DISTRICT,South District,Urban
+11,244,DISTRICT,East District,Total
+11,244,DISTRICT,East District,Rural
+11,244,DISTRICT,East District,Urban
+12,0,State,ARUNACHAL PRADESH,Total
+12,0,State,ARUNACHAL PRADESH,Rural
+12,0,State,ARUNACHAL PRADESH,Urban
+12,245,DISTRICT,Tawang,Total
+12,245,DISTRICT,Tawang,Rural
+12,245,DISTRICT,Tawang,Urban
+12,246,DISTRICT,West Kameng,Total
+12,246,DISTRICT,West Kameng,Rural
+12,246,DISTRICT,West Kameng,Urban
+12,247,DISTRICT,East Kameng,Total
+12,247,DISTRICT,East Kameng,Rural
+12,247,DISTRICT,East Kameng,Urban
+12,248,DISTRICT,Papum Pare,Total
+12,248,DISTRICT,Papum Pare,Rural
+12,248,DISTRICT,Papum Pare,Urban
+12,249,DISTRICT,Upper Subansiri,Total
+12,249,DISTRICT,Upper Subansiri,Rural
+12,249,DISTRICT,Upper Subansiri,Urban
+12,250,DISTRICT,West Siang,Total
+12,250,DISTRICT,West Siang,Rural
+12,250,DISTRICT,West Siang,Urban
+12,251,DISTRICT,East Siang,Total
+12,251,DISTRICT,East Siang,Rural
+12,251,DISTRICT,East Siang,Urban
+12,252,DISTRICT,Upper Siang,Total
+12,252,DISTRICT,Upper Siang,Rural
+12,252,DISTRICT,Upper Siang,Urban
+12,253,DISTRICT,Changlang,Total
+12,253,DISTRICT,Changlang,Rural
+12,253,DISTRICT,Changlang,Urban
+12,254,DISTRICT,Tirap,Total
+12,254,DISTRICT,Tirap,Rural
+12,254,DISTRICT,Tirap,Urban
+12,255,DISTRICT,Lower Subansiri,Total
+12,255,DISTRICT,Lower Subansiri,Rural
+12,255,DISTRICT,Lower Subansiri,Urban
+12,256,DISTRICT,Kurung Kumey,Total
+12,256,DISTRICT,Kurung Kumey,Rural
+12,256,DISTRICT,Kurung Kumey,Urban
+12,257,DISTRICT,Dibang Valley,Total
+12,257,DISTRICT,Dibang Valley,Rural
+12,257,DISTRICT,Dibang Valley,Urban
+12,258,DISTRICT,Lower Dibang Valley,Total
+12,258,DISTRICT,Lower Dibang Valley,Rural
+12,258,DISTRICT,Lower Dibang Valley,Urban
+12,259,DISTRICT,Lohit,Total
+12,259,DISTRICT,Lohit,Rural
+12,259,DISTRICT,Lohit,Urban
+12,260,DISTRICT,Anjaw,Total
+12,260,DISTRICT,Anjaw,Rural
+12,260,DISTRICT,Anjaw,Urban
+13,0,State,NAGALAND,Total
+13,0,State,NAGALAND,Rural
+13,0,State,NAGALAND,Urban
+13,261,DISTRICT,Mon,Total
+13,261,DISTRICT,Mon,Rural
+13,261,DISTRICT,Mon,Urban
+13,262,DISTRICT,Mokokchung,Total
+13,262,DISTRICT,Mokokchung,Rural
+13,262,DISTRICT,Mokokchung,Urban
+13,263,DISTRICT,Zunheboto,Total
+13,263,DISTRICT,Zunheboto,Rural
+13,263,DISTRICT,Zunheboto,Urban
+13,264,DISTRICT,Wokha,Total
+13,264,DISTRICT,Wokha,Rural
+13,264,DISTRICT,Wokha,Urban
+13,265,DISTRICT,Dimapur ,Total
+13,265,DISTRICT,Dimapur ,Rural
+13,265,DISTRICT,Dimapur ,Urban
+13,266,DISTRICT,Phek,Total
+13,266,DISTRICT,Phek,Rural
+13,266,DISTRICT,Phek,Urban
+13,267,DISTRICT,Tuensang,Total
+13,267,DISTRICT,Tuensang,Rural
+13,267,DISTRICT,Tuensang,Urban
+13,268,DISTRICT,Longleng,Total
+13,268,DISTRICT,Longleng,Rural
+13,268,DISTRICT,Longleng,Urban
+13,269,DISTRICT,Kiphire,Total
+13,269,DISTRICT,Kiphire,Rural
+13,269,DISTRICT,Kiphire,Urban
+13,270,DISTRICT,Kohima,Total
+13,270,DISTRICT,Kohima,Rural
+13,270,DISTRICT,Kohima,Urban
+13,271,DISTRICT,Peren,Total
+13,271,DISTRICT,Peren,Rural
+13,271,DISTRICT,Peren,Urban
+14,0,State,MANIPUR,Total
+14,0,State,MANIPUR,Rural
+14,0,State,MANIPUR,Urban
+14,272,DISTRICT,Senapati,Total
+14,272,DISTRICT,Senapati,Rural
+14,272,DISTRICT,Senapati,Urban
+14,273,DISTRICT,Tamenglong ,Total
+14,273,DISTRICT,Tamenglong ,Rural
+14,273,DISTRICT,Tamenglong ,Urban
+14,274,DISTRICT,Churachandpur,Total
+14,274,DISTRICT,Churachandpur,Rural
+14,274,DISTRICT,Churachandpur,Urban
+14,275,DISTRICT,Bishnupur,Total
+14,275,DISTRICT,Bishnupur,Rural
+14,275,DISTRICT,Bishnupur,Urban
+14,276,DISTRICT,Thoubal,Total
+14,276,DISTRICT,Thoubal,Rural
+14,276,DISTRICT,Thoubal,Urban
+14,277,DISTRICT,Imphal West,Total
+14,277,DISTRICT,Imphal West,Rural
+14,277,DISTRICT,Imphal West,Urban
+14,278,DISTRICT,Imphal East,Total
+14,278,DISTRICT,Imphal East,Rural
+14,278,DISTRICT,Imphal East,Urban
+14,279,DISTRICT,Ukhrul,Total
+14,279,DISTRICT,Ukhrul,Rural
+14,279,DISTRICT,Ukhrul,Urban
+14,280,DISTRICT,Chandel,Total
+14,280,DISTRICT,Chandel,Rural
+14,280,DISTRICT,Chandel,Urban
+15,0,State,MIZORAM,Total
+15,0,State,MIZORAM,Rural
+15,0,State,MIZORAM,Urban
+15,281,DISTRICT,Mamit,Total
+15,281,DISTRICT,Mamit,Rural
+15,281,DISTRICT,Mamit,Urban
+15,282,DISTRICT,Kolasib,Total
+15,282,DISTRICT,Kolasib,Rural
+15,282,DISTRICT,Kolasib,Urban
+15,283,DISTRICT,Aizawl,Total
+15,283,DISTRICT,Aizawl,Rural
+15,283,DISTRICT,Aizawl,Urban
+15,284,DISTRICT,Champhai,Total
+15,284,DISTRICT,Champhai,Rural
+15,284,DISTRICT,Champhai,Urban
+15,285,DISTRICT,Serchhip,Total
+15,285,DISTRICT,Serchhip,Rural
+15,285,DISTRICT,Serchhip,Urban
+15,286,DISTRICT,Lunglei,Total
+15,286,DISTRICT,Lunglei,Rural
+15,286,DISTRICT,Lunglei,Urban
+15,287,DISTRICT,Lawngtlai,Total
+15,287,DISTRICT,Lawngtlai,Rural
+15,287,DISTRICT,Lawngtlai,Urban
+15,288,DISTRICT,Saiha,Total
+15,288,DISTRICT,Saiha,Rural
+15,288,DISTRICT,Saiha,Urban
+16,0,State,TRIPURA,Total
+16,0,State,TRIPURA,Rural
+16,0,State,TRIPURA,Urban
+16,289,DISTRICT,West Tripura ,Total
+16,289,DISTRICT,West Tripura ,Rural
+16,289,DISTRICT,West Tripura ,Urban
+16,290,DISTRICT,South Tripura ,Total
+16,290,DISTRICT,South Tripura ,Rural
+16,290,DISTRICT,South Tripura ,Urban
+16,291,DISTRICT,Dhalai,Total
+16,291,DISTRICT,Dhalai,Rural
+16,291,DISTRICT,Dhalai,Urban
+16,292,DISTRICT,North Tripura,Total
+16,292,DISTRICT,North Tripura,Rural
+16,292,DISTRICT,North Tripura,Urban
+17,0,State,MEGHALAYA,Total
+17,0,State,MEGHALAYA,Rural
+17,0,State,MEGHALAYA,Urban
+17,293,DISTRICT,West Garo Hills,Total
+17,293,DISTRICT,West Garo Hills,Rural
+17,293,DISTRICT,West Garo Hills,Urban
+17,294,DISTRICT,East Garo Hills,Total
+17,294,DISTRICT,East Garo Hills,Rural
+17,294,DISTRICT,East Garo Hills,Urban
+17,295,DISTRICT,South Garo Hills,Total
+17,295,DISTRICT,South Garo Hills,Rural
+17,295,DISTRICT,South Garo Hills,Urban
+17,296,DISTRICT,West Khasi Hills,Total
+17,296,DISTRICT,West Khasi Hills,Rural
+17,296,DISTRICT,West Khasi Hills,Urban
+17,297,DISTRICT,Ribhoi,Total
+17,297,DISTRICT,Ribhoi,Rural
+17,297,DISTRICT,Ribhoi,Urban
+17,298,DISTRICT,East Khasi Hills,Total
+17,298,DISTRICT,East Khasi Hills,Rural
+17,298,DISTRICT,East Khasi Hills,Urban
+17,299,DISTRICT,Jaintia Hills,Total
+17,299,DISTRICT,Jaintia Hills,Rural
+17,299,DISTRICT,Jaintia Hills,Urban
+18,0,State,ASSAM,Total
+18,0,State,ASSAM,Rural
+18,0,State,ASSAM,Urban
+18,300,DISTRICT,Kokrajhar,Total
+18,300,DISTRICT,Kokrajhar,Rural
+18,300,DISTRICT,Kokrajhar,Urban
+18,301,DISTRICT,Dhubri,Total
+18,301,DISTRICT,Dhubri,Rural
+18,301,DISTRICT,Dhubri,Urban
+18,302,DISTRICT,Goalpara,Total
+18,302,DISTRICT,Goalpara,Rural
+18,302,DISTRICT,Goalpara,Urban
+18,303,DISTRICT,Barpeta,Total
+18,303,DISTRICT,Barpeta,Rural
+18,303,DISTRICT,Barpeta,Urban
+18,304,DISTRICT,Morigaon,Total
+18,304,DISTRICT,Morigaon,Rural
+18,304,DISTRICT,Morigaon,Urban
+18,305,DISTRICT,Nagaon,Total
+18,305,DISTRICT,Nagaon,Rural
+18,305,DISTRICT,Nagaon,Urban
+18,306,DISTRICT,Sonitpur,Total
+18,306,DISTRICT,Sonitpur,Rural
+18,306,DISTRICT,Sonitpur,Urban
+18,307,DISTRICT,Lakhimpur,Total
+18,307,DISTRICT,Lakhimpur,Rural
+18,307,DISTRICT,Lakhimpur,Urban
+18,308,DISTRICT,Dhemaji,Total
+18,308,DISTRICT,Dhemaji,Rural
+18,308,DISTRICT,Dhemaji,Urban
+18,309,DISTRICT,Tinsukia,Total
+18,309,DISTRICT,Tinsukia,Rural
+18,309,DISTRICT,Tinsukia,Urban
+18,310,DISTRICT,Dibrugarh,Total
+18,310,DISTRICT,Dibrugarh,Rural
+18,310,DISTRICT,Dibrugarh,Urban
+18,311,DISTRICT,Sivasagar,Total
+18,311,DISTRICT,Sivasagar,Rural
+18,311,DISTRICT,Sivasagar,Urban
+18,312,DISTRICT,Jorhat,Total
+18,312,DISTRICT,Jorhat,Rural
+18,312,DISTRICT,Jorhat,Urban
+18,313,DISTRICT,Golaghat,Total
+18,313,DISTRICT,Golaghat,Rural
+18,313,DISTRICT,Golaghat,Urban
+18,314,DISTRICT,Karbi Anglong,Total
+18,314,DISTRICT,Karbi Anglong,Rural
+18,314,DISTRICT,Karbi Anglong,Urban
+18,315,DISTRICT,Dima Hasao,Total
+18,315,DISTRICT,Dima Hasao,Rural
+18,315,DISTRICT,Dima Hasao,Urban
+18,316,DISTRICT,Cachar,Total
+18,316,DISTRICT,Cachar,Rural
+18,316,DISTRICT,Cachar,Urban
+18,317,DISTRICT,Karimganj,Total
+18,317,DISTRICT,Karimganj,Rural
+18,317,DISTRICT,Karimganj,Urban
+18,318,DISTRICT,Hailakandi,Total
+18,318,DISTRICT,Hailakandi,Rural
+18,318,DISTRICT,Hailakandi,Urban
+18,319,DISTRICT,Bongaigaon,Total
+18,319,DISTRICT,Bongaigaon,Rural
+18,319,DISTRICT,Bongaigaon,Urban
+18,320,DISTRICT,Chirang,Total
+18,320,DISTRICT,Chirang,Rural
+18,320,DISTRICT,Chirang,Urban
+18,321,DISTRICT,Kamrup,Total
+18,321,DISTRICT,Kamrup,Rural
+18,321,DISTRICT,Kamrup,Urban
+18,322,DISTRICT,Kamrup Metropolitan,Total
+18,322,DISTRICT,Kamrup Metropolitan,Rural
+18,322,DISTRICT,Kamrup Metropolitan,Urban
+18,323,DISTRICT,Nalbari,Total
+18,323,DISTRICT,Nalbari,Rural
+18,323,DISTRICT,Nalbari,Urban
+18,324,DISTRICT,Baksa,Total
+18,324,DISTRICT,Baksa,Rural
+18,324,DISTRICT,Baksa,Urban
+18,325,DISTRICT,Darrang,Total
+18,325,DISTRICT,Darrang,Rural
+18,325,DISTRICT,Darrang,Urban
+18,326,DISTRICT,Udalguri,Total
+18,326,DISTRICT,Udalguri,Rural
+18,326,DISTRICT,Udalguri,Urban
+19,0,State,WEST BENGAL,Total
+19,0,State,WEST BENGAL,Rural
+19,0,State,WEST BENGAL,Urban
+19,327,DISTRICT,Darjiling ,Total
+19,327,DISTRICT,Darjiling ,Rural
+19,327,DISTRICT,Darjiling ,Urban
+19,328,DISTRICT,Jalpaiguri ,Total
+19,328,DISTRICT,Jalpaiguri ,Rural
+19,328,DISTRICT,Jalpaiguri ,Urban
+19,329,DISTRICT,Koch Bihar ,Total
+19,329,DISTRICT,Koch Bihar ,Rural
+19,329,DISTRICT,Koch Bihar ,Urban
+19,330,DISTRICT,Uttar Dinajpur,Total
+19,330,DISTRICT,Uttar Dinajpur,Rural
+19,330,DISTRICT,Uttar Dinajpur,Urban
+19,331,DISTRICT,Dakshin Dinajpur,Total
+19,331,DISTRICT,Dakshin Dinajpur,Rural
+19,331,DISTRICT,Dakshin Dinajpur,Urban
+19,332,DISTRICT,Maldah ,Total
+19,332,DISTRICT,Maldah ,Rural
+19,332,DISTRICT,Maldah ,Urban
+19,333,DISTRICT,Murshidabad ,Total
+19,333,DISTRICT,Murshidabad ,Rural
+19,333,DISTRICT,Murshidabad ,Urban
+19,334,DISTRICT,Birbhum,Total
+19,334,DISTRICT,Birbhum,Rural
+19,334,DISTRICT,Birbhum,Urban
+19,335,DISTRICT,Barddhaman ,Total
+19,335,DISTRICT,Barddhaman ,Rural
+19,335,DISTRICT,Barddhaman ,Urban
+19,336,DISTRICT,Nadia ,Total
+19,336,DISTRICT,Nadia ,Rural
+19,336,DISTRICT,Nadia ,Urban
+19,337,DISTRICT,North Twenty Four Parganas,Total
+19,337,DISTRICT,North Twenty Four Parganas,Rural
+19,337,DISTRICT,North Twenty Four Parganas,Urban
+19,338,DISTRICT,Hugli ,Total
+19,338,DISTRICT,Hugli ,Rural
+19,338,DISTRICT,Hugli ,Urban
+19,339,DISTRICT,Bankura ,Total
+19,339,DISTRICT,Bankura ,Rural
+19,339,DISTRICT,Bankura ,Urban
+19,340,DISTRICT,Puruliya,Total
+19,340,DISTRICT,Puruliya,Rural
+19,340,DISTRICT,Puruliya,Urban
+19,341,DISTRICT,Haora ,Total
+19,341,DISTRICT,Haora ,Rural
+19,341,DISTRICT,Haora ,Urban
+19,342,DISTRICT,Kolkata,Total
+19,342,DISTRICT,Kolkata,Rural
+19,342,DISTRICT,Kolkata,Urban
+19,343,DISTRICT,South Twenty Four Parganas,Total
+19,343,DISTRICT,South Twenty Four Parganas,Rural
+19,343,DISTRICT,South Twenty Four Parganas,Urban
+19,344,DISTRICT,Paschim Medinipur,Total
+19,344,DISTRICT,Paschim Medinipur,Rural
+19,344,DISTRICT,Paschim Medinipur,Urban
+19,345,DISTRICT,Purba Medinipur,Total
+19,345,DISTRICT,Purba Medinipur,Rural
+19,345,DISTRICT,Purba Medinipur,Urban
+20,0,State,JHARKHAND,Total
+20,0,State,JHARKHAND,Rural
+20,0,State,JHARKHAND,Urban
+20,346,DISTRICT,Garhwa ,Total
+20,346,DISTRICT,Garhwa ,Rural
+20,346,DISTRICT,Garhwa ,Urban
+20,347,DISTRICT,Chatra,Total
+20,347,DISTRICT,Chatra,Rural
+20,347,DISTRICT,Chatra,Urban
+20,348,DISTRICT,Kodarma,Total
+20,348,DISTRICT,Kodarma,Rural
+20,348,DISTRICT,Kodarma,Urban
+20,349,DISTRICT,Giridih,Total
+20,349,DISTRICT,Giridih,Rural
+20,349,DISTRICT,Giridih,Urban
+20,350,DISTRICT,Deoghar,Total
+20,350,DISTRICT,Deoghar,Rural
+20,350,DISTRICT,Deoghar,Urban
+20,351,DISTRICT,Godda,Total
+20,351,DISTRICT,Godda,Rural
+20,351,DISTRICT,Godda,Urban
+20,352,DISTRICT,Sahibganj,Total
+20,352,DISTRICT,Sahibganj,Rural
+20,352,DISTRICT,Sahibganj,Urban
+20,353,DISTRICT,Pakur,Total
+20,353,DISTRICT,Pakur,Rural
+20,353,DISTRICT,Pakur,Urban
+20,354,DISTRICT,Dhanbad,Total
+20,354,DISTRICT,Dhanbad,Rural
+20,354,DISTRICT,Dhanbad,Urban
+20,355,DISTRICT,Bokaro,Total
+20,355,DISTRICT,Bokaro,Rural
+20,355,DISTRICT,Bokaro,Urban
+20,356,DISTRICT,Lohardaga,Total
+20,356,DISTRICT,Lohardaga,Rural
+20,356,DISTRICT,Lohardaga,Urban
+20,357,DISTRICT,Purbi Singhbhum,Total
+20,357,DISTRICT,Purbi Singhbhum,Rural
+20,357,DISTRICT,Purbi Singhbhum,Urban
+20,358,DISTRICT,Palamu,Total
+20,358,DISTRICT,Palamu,Rural
+20,358,DISTRICT,Palamu,Urban
+20,359,DISTRICT,Latehar,Total
+20,359,DISTRICT,Latehar,Rural
+20,359,DISTRICT,Latehar,Urban
+20,360,DISTRICT,Hazaribagh,Total
+20,360,DISTRICT,Hazaribagh,Rural
+20,360,DISTRICT,Hazaribagh,Urban
+20,361,DISTRICT,Ramgarh,Total
+20,361,DISTRICT,Ramgarh,Rural
+20,361,DISTRICT,Ramgarh,Urban
+20,362,DISTRICT,Dumka,Total
+20,362,DISTRICT,Dumka,Rural
+20,362,DISTRICT,Dumka,Urban
+20,363,DISTRICT,Jamtara,Total
+20,363,DISTRICT,Jamtara,Rural
+20,363,DISTRICT,Jamtara,Urban
+20,364,DISTRICT,Ranchi,Total
+20,364,DISTRICT,Ranchi,Rural
+20,364,DISTRICT,Ranchi,Urban
+20,365,DISTRICT,Khunti,Total
+20,365,DISTRICT,Khunti,Rural
+20,365,DISTRICT,Khunti,Urban
+20,366,DISTRICT,Gumla,Total
+20,366,DISTRICT,Gumla,Rural
+20,366,DISTRICT,Gumla,Urban
+20,367,DISTRICT,Simdega,Total
+20,367,DISTRICT,Simdega,Rural
+20,367,DISTRICT,Simdega,Urban
+20,368,DISTRICT,Pashchimi Singhbhum,Total
+20,368,DISTRICT,Pashchimi Singhbhum,Rural
+20,368,DISTRICT,Pashchimi Singhbhum,Urban
+20,369,DISTRICT,Saraikela-Kharsawan,Total
+20,369,DISTRICT,Saraikela-Kharsawan,Rural
+20,369,DISTRICT,Saraikela-Kharsawan,Urban
+21,0,State,ODISHA,Total
+21,0,State,ODISHA,Rural
+21,0,State,ODISHA,Urban
+21,370,DISTRICT,Bargarh,Total
+21,370,DISTRICT,Bargarh,Rural
+21,370,DISTRICT,Bargarh,Urban
+21,371,DISTRICT,Jharsuguda,Total
+21,371,DISTRICT,Jharsuguda,Rural
+21,371,DISTRICT,Jharsuguda,Urban
+21,372,DISTRICT,Sambalpur,Total
+21,372,DISTRICT,Sambalpur,Rural
+21,372,DISTRICT,Sambalpur,Urban
+21,373,DISTRICT,Debagarh,Total
+21,373,DISTRICT,Debagarh,Rural
+21,373,DISTRICT,Debagarh,Urban
+21,374,DISTRICT,Sundargarh,Total
+21,374,DISTRICT,Sundargarh,Rural
+21,374,DISTRICT,Sundargarh,Urban
+21,375,DISTRICT,Kendujhar,Total
+21,375,DISTRICT,Kendujhar,Rural
+21,375,DISTRICT,Kendujhar,Urban
+21,376,DISTRICT,Mayurbhanj,Total
+21,376,DISTRICT,Mayurbhanj,Rural
+21,376,DISTRICT,Mayurbhanj,Urban
+21,377,DISTRICT,Baleshwar,Total
+21,377,DISTRICT,Baleshwar,Rural
+21,377,DISTRICT,Baleshwar,Urban
+21,378,DISTRICT,Bhadrak,Total
+21,378,DISTRICT,Bhadrak,Rural
+21,378,DISTRICT,Bhadrak,Urban
+21,379,DISTRICT,Kendrapara ,Total
+21,379,DISTRICT,Kendrapara ,Rural
+21,379,DISTRICT,Kendrapara ,Urban
+21,380,DISTRICT,Jagatsinghapur ,Total
+21,380,DISTRICT,Jagatsinghapur ,Rural
+21,380,DISTRICT,Jagatsinghapur ,Urban
+21,381,DISTRICT,Cuttack,Total
+21,381,DISTRICT,Cuttack,Rural
+21,381,DISTRICT,Cuttack,Urban
+21,382,DISTRICT,Jajapur  ,Total
+21,382,DISTRICT,Jajapur  ,Rural
+21,382,DISTRICT,Jajapur  ,Urban
+21,383,DISTRICT,Dhenkanal,Total
+21,383,DISTRICT,Dhenkanal,Rural
+21,383,DISTRICT,Dhenkanal,Urban
+21,384,DISTRICT,Anugul  ,Total
+21,384,DISTRICT,Anugul  ,Rural
+21,384,DISTRICT,Anugul  ,Urban
+21,385,DISTRICT,Nayagarh  ,Total
+21,385,DISTRICT,Nayagarh  ,Rural
+21,385,DISTRICT,Nayagarh  ,Urban
+21,386,DISTRICT,Khordha ,Total
+21,386,DISTRICT,Khordha ,Rural
+21,386,DISTRICT,Khordha ,Urban
+21,387,DISTRICT,Puri,Total
+21,387,DISTRICT,Puri,Rural
+21,387,DISTRICT,Puri,Urban
+21,388,DISTRICT,Ganjam,Total
+21,388,DISTRICT,Ganjam,Rural
+21,388,DISTRICT,Ganjam,Urban
+21,389,DISTRICT,Gajapati,Total
+21,389,DISTRICT,Gajapati,Rural
+21,389,DISTRICT,Gajapati,Urban
+21,390,DISTRICT,Kandhamal,Total
+21,390,DISTRICT,Kandhamal,Rural
+21,390,DISTRICT,Kandhamal,Urban
+21,391,DISTRICT,Baudh,Total
+21,391,DISTRICT,Baudh,Rural
+21,391,DISTRICT,Baudh,Urban
+21,392,DISTRICT,Subarnapur,Total
+21,392,DISTRICT,Subarnapur,Rural
+21,392,DISTRICT,Subarnapur,Urban
+21,393,DISTRICT,Balangir,Total
+21,393,DISTRICT,Balangir,Rural
+21,393,DISTRICT,Balangir,Urban
+21,394,DISTRICT,Nuapada,Total
+21,394,DISTRICT,Nuapada,Rural
+21,394,DISTRICT,Nuapada,Urban
+21,395,DISTRICT,Kalahandi,Total
+21,395,DISTRICT,Kalahandi,Rural
+21,395,DISTRICT,Kalahandi,Urban
+21,396,DISTRICT,Rayagada  ,Total
+21,396,DISTRICT,Rayagada  ,Rural
+21,396,DISTRICT,Rayagada  ,Urban
+21,397,DISTRICT,Nabarangapur ,Total
+21,397,DISTRICT,Nabarangapur ,Rural
+21,397,DISTRICT,Nabarangapur ,Urban
+21,398,DISTRICT,Koraput,Total
+21,398,DISTRICT,Koraput,Rural
+21,398,DISTRICT,Koraput,Urban
+21,399,DISTRICT,Malkangiri  ,Total
+21,399,DISTRICT,Malkangiri  ,Rural
+21,399,DISTRICT,Malkangiri  ,Urban
+22,0,State,CHHATTISGARH,Total
+22,0,State,CHHATTISGARH,Rural
+22,0,State,CHHATTISGARH,Urban
+22,400,DISTRICT,Koriya,Total
+22,400,DISTRICT,Koriya,Rural
+22,400,DISTRICT,Koriya,Urban
+22,401,DISTRICT,Surguja,Total
+22,401,DISTRICT,Surguja,Rural
+22,401,DISTRICT,Surguja,Urban
+22,402,DISTRICT,Jashpur ,Total
+22,402,DISTRICT,Jashpur ,Rural
+22,402,DISTRICT,Jashpur ,Urban
+22,403,DISTRICT,Raigarh,Total
+22,403,DISTRICT,Raigarh,Rural
+22,403,DISTRICT,Raigarh,Urban
+22,404,DISTRICT,Korba ,Total
+22,404,DISTRICT,Korba ,Rural
+22,404,DISTRICT,Korba ,Urban
+22,405,DISTRICT,Janjgir - Champa,Total
+22,405,DISTRICT,Janjgir - Champa,Rural
+22,405,DISTRICT,Janjgir - Champa,Urban
+22,406,DISTRICT,Bilaspur,Total
+22,406,DISTRICT,Bilaspur,Rural
+22,406,DISTRICT,Bilaspur,Urban
+22,407,DISTRICT,Kabeerdham,Total
+22,407,DISTRICT,Kabeerdham,Rural
+22,407,DISTRICT,Kabeerdham,Urban
+22,408,DISTRICT,Rajnandgaon,Total
+22,408,DISTRICT,Rajnandgaon,Rural
+22,408,DISTRICT,Rajnandgaon,Urban
+22,409,DISTRICT,Durg,Total
+22,409,DISTRICT,Durg,Rural
+22,409,DISTRICT,Durg,Urban
+22,410,DISTRICT,Raipur,Total
+22,410,DISTRICT,Raipur,Rural
+22,410,DISTRICT,Raipur,Urban
+22,411,DISTRICT,Mahasamund,Total
+22,411,DISTRICT,Mahasamund,Rural
+22,411,DISTRICT,Mahasamund,Urban
+22,412,DISTRICT,Dhamtari ,Total
+22,412,DISTRICT,Dhamtari ,Rural
+22,412,DISTRICT,Dhamtari ,Urban
+22,413,DISTRICT,Uttar Bastar Kanker,Total
+22,413,DISTRICT,Uttar Bastar Kanker,Rural
+22,413,DISTRICT,Uttar Bastar Kanker,Urban
+22,414,DISTRICT,Bastar,Total
+22,414,DISTRICT,Bastar,Rural
+22,414,DISTRICT,Bastar,Urban
+22,415,DISTRICT,Narayanpur,Total
+22,415,DISTRICT,Narayanpur,Rural
+22,415,DISTRICT,Narayanpur,Urban
+22,416,DISTRICT,Dakshin Bastar Dantewada,Total
+22,416,DISTRICT,Dakshin Bastar Dantewada,Rural
+22,416,DISTRICT,Dakshin Bastar Dantewada,Urban
+22,417,DISTRICT,Bijapur,Total
+22,417,DISTRICT,Bijapur,Rural
+22,417,DISTRICT,Bijapur,Urban
+23,0,State,MADHYA PRADESH,Total
+23,0,State,MADHYA PRADESH,Rural
+23,0,State,MADHYA PRADESH,Urban
+23,418,DISTRICT,Sheopur ,Total
+23,418,DISTRICT,Sheopur ,Rural
+23,418,DISTRICT,Sheopur ,Urban
+23,419,DISTRICT,Morena,Total
+23,419,DISTRICT,Morena,Rural
+23,419,DISTRICT,Morena,Urban
+23,420,DISTRICT,Bhind,Total
+23,420,DISTRICT,Bhind,Rural
+23,420,DISTRICT,Bhind,Urban
+23,421,DISTRICT,Gwalior,Total
+23,421,DISTRICT,Gwalior,Rural
+23,421,DISTRICT,Gwalior,Urban
+23,422,DISTRICT,Datia,Total
+23,422,DISTRICT,Datia,Rural
+23,422,DISTRICT,Datia,Urban
+23,423,DISTRICT,Shivpuri,Total
+23,423,DISTRICT,Shivpuri,Rural
+23,423,DISTRICT,Shivpuri,Urban
+23,424,DISTRICT,Tikamgarh,Total
+23,424,DISTRICT,Tikamgarh,Rural
+23,424,DISTRICT,Tikamgarh,Urban
+23,425,DISTRICT,Chhatarpur,Total
+23,425,DISTRICT,Chhatarpur,Rural
+23,425,DISTRICT,Chhatarpur,Urban
+23,426,DISTRICT,Panna,Total
+23,426,DISTRICT,Panna,Rural
+23,426,DISTRICT,Panna,Urban
+23,427,DISTRICT,Sagar,Total
+23,427,DISTRICT,Sagar,Rural
+23,427,DISTRICT,Sagar,Urban
+23,428,DISTRICT,Damoh,Total
+23,428,DISTRICT,Damoh,Rural
+23,428,DISTRICT,Damoh,Urban
+23,429,DISTRICT,Satna,Total
+23,429,DISTRICT,Satna,Rural
+23,429,DISTRICT,Satna,Urban
+23,430,DISTRICT,Rewa,Total
+23,430,DISTRICT,Rewa,Rural
+23,430,DISTRICT,Rewa,Urban
+23,431,DISTRICT,Umaria,Total
+23,431,DISTRICT,Umaria,Rural
+23,431,DISTRICT,Umaria,Urban
+23,432,DISTRICT,Neemuch ,Total
+23,432,DISTRICT,Neemuch ,Rural
+23,432,DISTRICT,Neemuch ,Urban
+23,433,DISTRICT,Mandsaur,Total
+23,433,DISTRICT,Mandsaur,Rural
+23,433,DISTRICT,Mandsaur,Urban
+23,434,DISTRICT,Ratlam,Total
+23,434,DISTRICT,Ratlam,Rural
+23,434,DISTRICT,Ratlam,Urban
+23,435,DISTRICT,Ujjain,Total
+23,435,DISTRICT,Ujjain,Rural
+23,435,DISTRICT,Ujjain,Urban
+23,436,DISTRICT,Shajapur,Total
+23,436,DISTRICT,Shajapur,Rural
+23,436,DISTRICT,Shajapur,Urban
+23,437,DISTRICT,Dewas,Total
+23,437,DISTRICT,Dewas,Rural
+23,437,DISTRICT,Dewas,Urban
+23,438,DISTRICT,Dhar,Total
+23,438,DISTRICT,Dhar,Rural
+23,438,DISTRICT,Dhar,Urban
+23,439,DISTRICT,Indore,Total
+23,439,DISTRICT,Indore,Rural
+23,439,DISTRICT,Indore,Urban
+23,440,DISTRICT,Khargone (West Nimar),Total
+23,440,DISTRICT,Khargone (West Nimar),Rural
+23,440,DISTRICT,Khargone (West Nimar),Urban
+23,441,DISTRICT,Barwani ,Total
+23,441,DISTRICT,Barwani ,Rural
+23,441,DISTRICT,Barwani ,Urban
+23,442,DISTRICT,Rajgarh,Total
+23,442,DISTRICT,Rajgarh,Rural
+23,442,DISTRICT,Rajgarh,Urban
+23,443,DISTRICT,Vidisha,Total
+23,443,DISTRICT,Vidisha,Rural
+23,443,DISTRICT,Vidisha,Urban
+23,444,DISTRICT,Bhopal,Total
+23,444,DISTRICT,Bhopal,Rural
+23,444,DISTRICT,Bhopal,Urban
+23,445,DISTRICT,Sehore,Total
+23,445,DISTRICT,Sehore,Rural
+23,445,DISTRICT,Sehore,Urban
+23,446,DISTRICT,Raisen,Total
+23,446,DISTRICT,Raisen,Rural
+23,446,DISTRICT,Raisen,Urban
+23,447,DISTRICT,Betul,Total
+23,447,DISTRICT,Betul,Rural
+23,447,DISTRICT,Betul,Urban
+23,448,DISTRICT,Harda ,Total
+23,448,DISTRICT,Harda ,Rural
+23,448,DISTRICT,Harda ,Urban
+23,449,DISTRICT,Hoshangabad,Total
+23,449,DISTRICT,Hoshangabad,Rural
+23,449,DISTRICT,Hoshangabad,Urban
+23,450,DISTRICT,Katni ,Total
+23,450,DISTRICT,Katni ,Rural
+23,450,DISTRICT,Katni ,Urban
+23,451,DISTRICT,Jabalpur,Total
+23,451,DISTRICT,Jabalpur,Rural
+23,451,DISTRICT,Jabalpur,Urban
+23,452,DISTRICT,Narsimhapur,Total
+23,452,DISTRICT,Narsimhapur,Rural
+23,452,DISTRICT,Narsimhapur,Urban
+23,453,DISTRICT,Dindori ,Total
+23,453,DISTRICT,Dindori ,Rural
+23,453,DISTRICT,Dindori ,Urban
+23,454,DISTRICT,Mandla,Total
+23,454,DISTRICT,Mandla,Rural
+23,454,DISTRICT,Mandla,Urban
+23,455,DISTRICT,Chhindwara,Total
+23,455,DISTRICT,Chhindwara,Rural
+23,455,DISTRICT,Chhindwara,Urban
+23,456,DISTRICT,Seoni,Total
+23,456,DISTRICT,Seoni,Rural
+23,456,DISTRICT,Seoni,Urban
+23,457,DISTRICT,Balaghat,Total
+23,457,DISTRICT,Balaghat,Rural
+23,457,DISTRICT,Balaghat,Urban
+23,458,DISTRICT,Guna,Total
+23,458,DISTRICT,Guna,Rural
+23,458,DISTRICT,Guna,Urban
+23,459,DISTRICT,Ashoknagar,Total
+23,459,DISTRICT,Ashoknagar,Rural
+23,459,DISTRICT,Ashoknagar,Urban
+23,460,DISTRICT,Shahdol,Total
+23,460,DISTRICT,Shahdol,Rural
+23,460,DISTRICT,Shahdol,Urban
+23,461,DISTRICT,Anuppur,Total
+23,461,DISTRICT,Anuppur,Rural
+23,461,DISTRICT,Anuppur,Urban
+23,462,DISTRICT,Sidhi,Total
+23,462,DISTRICT,Sidhi,Rural
+23,462,DISTRICT,Sidhi,Urban
+23,463,DISTRICT,Singrauli,Total
+23,463,DISTRICT,Singrauli,Rural
+23,463,DISTRICT,Singrauli,Urban
+23,464,DISTRICT,Jhabua,Total
+23,464,DISTRICT,Jhabua,Rural
+23,464,DISTRICT,Jhabua,Urban
+23,465,DISTRICT,Alirajpur,Total
+23,465,DISTRICT,Alirajpur,Rural
+23,465,DISTRICT,Alirajpur,Urban
+23,466,DISTRICT,Khandwa (East Nimar),Total
+23,466,DISTRICT,Khandwa (East Nimar),Rural
+23,466,DISTRICT,Khandwa (East Nimar),Urban
+23,467,DISTRICT,Burhanpur,Total
+23,467,DISTRICT,Burhanpur,Rural
+23,467,DISTRICT,Burhanpur,Urban
+24,0,State,GUJARAT,Total
+24,0,State,GUJARAT,Rural
+24,0,State,GUJARAT,Urban
+24,468,DISTRICT,Kachchh,Total
+24,468,DISTRICT,Kachchh,Rural
+24,468,DISTRICT,Kachchh,Urban
+24,469,DISTRICT,Banas Kantha,Total
+24,469,DISTRICT,Banas Kantha,Rural
+24,469,DISTRICT,Banas Kantha,Urban
+24,470,DISTRICT,Patan  ,Total
+24,470,DISTRICT,Patan  ,Rural
+24,470,DISTRICT,Patan  ,Urban
+24,471,DISTRICT,Mahesana,Total
+24,471,DISTRICT,Mahesana,Rural
+24,471,DISTRICT,Mahesana,Urban
+24,472,DISTRICT,Sabar Kantha,Total
+24,472,DISTRICT,Sabar Kantha,Rural
+24,472,DISTRICT,Sabar Kantha,Urban
+24,473,DISTRICT,Gandhinagar,Total
+24,473,DISTRICT,Gandhinagar,Rural
+24,473,DISTRICT,Gandhinagar,Urban
+24,474,DISTRICT,Ahmadabad,Total
+24,474,DISTRICT,Ahmadabad,Rural
+24,474,DISTRICT,Ahmadabad,Urban
+24,475,DISTRICT,Surendranagar,Total
+24,475,DISTRICT,Surendranagar,Rural
+24,475,DISTRICT,Surendranagar,Urban
+24,476,DISTRICT,Rajkot,Total
+24,476,DISTRICT,Rajkot,Rural
+24,476,DISTRICT,Rajkot,Urban
+24,477,DISTRICT,Jamnagar,Total
+24,477,DISTRICT,Jamnagar,Rural
+24,477,DISTRICT,Jamnagar,Urban
+24,478,DISTRICT,Porbandar ,Total
+24,478,DISTRICT,Porbandar ,Rural
+24,478,DISTRICT,Porbandar ,Urban
+24,479,DISTRICT,Junagadh,Total
+24,479,DISTRICT,Junagadh,Rural
+24,479,DISTRICT,Junagadh,Urban
+24,480,DISTRICT,Amreli,Total
+24,480,DISTRICT,Amreli,Rural
+24,480,DISTRICT,Amreli,Urban
+24,481,DISTRICT,Bhavnagar,Total
+24,481,DISTRICT,Bhavnagar,Rural
+24,481,DISTRICT,Bhavnagar,Urban
+24,482,DISTRICT,Anand  ,Total
+24,482,DISTRICT,Anand  ,Rural
+24,482,DISTRICT,Anand  ,Urban
+24,483,DISTRICT,Kheda,Total
+24,483,DISTRICT,Kheda,Rural
+24,483,DISTRICT,Kheda,Urban
+24,484,DISTRICT,Panch Mahals,Total
+24,484,DISTRICT,Panch Mahals,Rural
+24,484,DISTRICT,Panch Mahals,Urban
+24,485,DISTRICT,Dohad  ,Total
+24,485,DISTRICT,Dohad  ,Rural
+24,485,DISTRICT,Dohad  ,Urban
+24,486,DISTRICT,Vadodara,Total
+24,486,DISTRICT,Vadodara,Rural
+24,486,DISTRICT,Vadodara,Urban
+24,487,DISTRICT,Narmada,Total
+24,487,DISTRICT,Narmada,Rural
+24,487,DISTRICT,Narmada,Urban
+24,488,DISTRICT,Bharuch,Total
+24,488,DISTRICT,Bharuch,Rural
+24,488,DISTRICT,Bharuch,Urban
+24,489,DISTRICT,The Dangs,Total
+24,489,DISTRICT,The Dangs,Rural
+24,489,DISTRICT,The Dangs,Urban
+24,490,DISTRICT,Navsari  ,Total
+24,490,DISTRICT,Navsari  ,Rural
+24,490,DISTRICT,Navsari  ,Urban
+24,491,DISTRICT,Valsad,Total
+24,491,DISTRICT,Valsad,Rural
+24,491,DISTRICT,Valsad,Urban
+24,492,DISTRICT,Surat,Total
+24,492,DISTRICT,Surat,Rural
+24,492,DISTRICT,Surat,Urban
+24,493,DISTRICT,Tapi,Total
+24,493,DISTRICT,Tapi,Rural
+24,493,DISTRICT,Tapi,Urban
+25,0,State,DAMAN & DIU,Total
+25,0,State,DAMAN & DIU,Rural
+25,0,State,DAMAN & DIU,Urban
+25,494,DISTRICT,Diu,Total
+25,494,DISTRICT,Diu,Rural
+25,494,DISTRICT,Diu,Urban
+25,495,DISTRICT,Daman,Total
+25,495,DISTRICT,Daman,Rural
+25,495,DISTRICT,Daman,Urban
+26,0,State,DADRA & NAGAR HAVELI,Total
+26,0,State,DADRA & NAGAR HAVELI,Rural
+26,0,State,DADRA & NAGAR HAVELI,Urban
+26,496,DISTRICT,Dadra & Nagar Haveli,Total
+26,496,DISTRICT,Dadra & Nagar Haveli,Rural
+26,496,DISTRICT,Dadra & Nagar Haveli,Urban
+27,0,State,MAHARASHTRA,Total
+27,0,State,MAHARASHTRA,Rural
+27,0,State,MAHARASHTRA,Urban
+27,497,DISTRICT,Nandurbar,Total
+27,497,DISTRICT,Nandurbar,Rural
+27,497,DISTRICT,Nandurbar,Urban
+27,498,DISTRICT,Dhule,Total
+27,498,DISTRICT,Dhule,Rural
+27,498,DISTRICT,Dhule,Urban
+27,499,DISTRICT,Jalgaon,Total
+27,499,DISTRICT,Jalgaon,Rural
+27,499,DISTRICT,Jalgaon,Urban
+27,500,DISTRICT,Buldana,Total
+27,500,DISTRICT,Buldana,Rural
+27,500,DISTRICT,Buldana,Urban
+27,501,DISTRICT,Akola,Total
+27,501,DISTRICT,Akola,Rural
+27,501,DISTRICT,Akola,Urban
+27,502,DISTRICT,Washim,Total
+27,502,DISTRICT,Washim,Rural
+27,502,DISTRICT,Washim,Urban
+27,503,DISTRICT,Amravati,Total
+27,503,DISTRICT,Amravati,Rural
+27,503,DISTRICT,Amravati,Urban
+27,504,DISTRICT,Wardha,Total
+27,504,DISTRICT,Wardha,Rural
+27,504,DISTRICT,Wardha,Urban
+27,505,DISTRICT,Nagpur,Total
+27,505,DISTRICT,Nagpur,Rural
+27,505,DISTRICT,Nagpur,Urban
+27,506,DISTRICT,Bhandara,Total
+27,506,DISTRICT,Bhandara,Rural
+27,506,DISTRICT,Bhandara,Urban
+27,507,DISTRICT,Gondiya,Total
+27,507,DISTRICT,Gondiya,Rural
+27,507,DISTRICT,Gondiya,Urban
+27,508,DISTRICT,Gadchiroli,Total
+27,508,DISTRICT,Gadchiroli,Rural
+27,508,DISTRICT,Gadchiroli,Urban
+27,509,DISTRICT,Chandrapur,Total
+27,509,DISTRICT,Chandrapur,Rural
+27,509,DISTRICT,Chandrapur,Urban
+27,510,DISTRICT,Yavatmal,Total
+27,510,DISTRICT,Yavatmal,Rural
+27,510,DISTRICT,Yavatmal,Urban
+27,511,DISTRICT,Nanded,Total
+27,511,DISTRICT,Nanded,Rural
+27,511,DISTRICT,Nanded,Urban
+27,512,DISTRICT,Hingoli,Total
+27,512,DISTRICT,Hingoli,Rural
+27,512,DISTRICT,Hingoli,Urban
+27,513,DISTRICT,Parbhani,Total
+27,513,DISTRICT,Parbhani,Rural
+27,513,DISTRICT,Parbhani,Urban
+27,514,DISTRICT,Jalna,Total
+27,514,DISTRICT,Jalna,Rural
+27,514,DISTRICT,Jalna,Urban
+27,515,DISTRICT,Aurangabad,Total
+27,515,DISTRICT,Aurangabad,Rural
+27,515,DISTRICT,Aurangabad,Urban
+27,516,DISTRICT,Nashik,Total
+27,516,DISTRICT,Nashik,Rural
+27,516,DISTRICT,Nashik,Urban
+27,517,DISTRICT,Thane,Total
+27,517,DISTRICT,Thane,Rural
+27,517,DISTRICT,Thane,Urban
+27,518,DISTRICT,Mumbai Suburban,Total
+27,518,DISTRICT,Mumbai Suburban,Rural
+27,518,DISTRICT,Mumbai Suburban,Urban
+27,519,DISTRICT,Mumbai,Total
+27,519,DISTRICT,Mumbai,Rural
+27,519,DISTRICT,Mumbai,Urban
+27,520,DISTRICT,Raigarh,Total
+27,520,DISTRICT,Raigarh,Rural
+27,520,DISTRICT,Raigarh,Urban
+27,521,DISTRICT,Pune,Total
+27,521,DISTRICT,Pune,Rural
+27,521,DISTRICT,Pune,Urban
+27,522,DISTRICT,Ahmadnagar,Total
+27,522,DISTRICT,Ahmadnagar,Rural
+27,522,DISTRICT,Ahmadnagar,Urban
+27,523,DISTRICT,Bid,Total
+27,523,DISTRICT,Bid,Rural
+27,523,DISTRICT,Bid,Urban
+27,524,DISTRICT,Latur,Total
+27,524,DISTRICT,Latur,Rural
+27,524,DISTRICT,Latur,Urban
+27,525,DISTRICT,Osmanabad,Total
+27,525,DISTRICT,Osmanabad,Rural
+27,525,DISTRICT,Osmanabad,Urban
+27,526,DISTRICT,Solapur,Total
+27,526,DISTRICT,Solapur,Rural
+27,526,DISTRICT,Solapur,Urban
+27,527,DISTRICT,Satara,Total
+27,527,DISTRICT,Satara,Rural
+27,527,DISTRICT,Satara,Urban
+27,528,DISTRICT,Ratnagiri,Total
+27,528,DISTRICT,Ratnagiri,Rural
+27,528,DISTRICT,Ratnagiri,Urban
+27,529,DISTRICT,Sindhudurg,Total
+27,529,DISTRICT,Sindhudurg,Rural
+27,529,DISTRICT,Sindhudurg,Urban
+27,530,DISTRICT,Kolhapur,Total
+27,530,DISTRICT,Kolhapur,Rural
+27,530,DISTRICT,Kolhapur,Urban
+27,531,DISTRICT,Sangli,Total
+27,531,DISTRICT,Sangli,Rural
+27,531,DISTRICT,Sangli,Urban
+28,0,State,ANDHRA PRADESH,Total
+28,0,State,ANDHRA PRADESH,Rural
+28,0,State,ANDHRA PRADESH,Urban
+28,532,DISTRICT,Adilabad,Total
+28,532,DISTRICT,Adilabad,Rural
+28,532,DISTRICT,Adilabad,Urban
+28,533,DISTRICT,Nizamabad,Total
+28,533,DISTRICT,Nizamabad,Rural
+28,533,DISTRICT,Nizamabad,Urban
+28,534,DISTRICT,Karimnagar,Total
+28,534,DISTRICT,Karimnagar,Rural
+28,534,DISTRICT,Karimnagar,Urban
+28,535,DISTRICT,Medak,Total
+28,535,DISTRICT,Medak,Rural
+28,535,DISTRICT,Medak,Urban
+28,536,DISTRICT,Hyderabad,Total
+28,536,DISTRICT,Hyderabad,Rural
+28,536,DISTRICT,Hyderabad,Urban
+28,537,DISTRICT,Rangareddy,Total
+28,537,DISTRICT,Rangareddy,Rural
+28,537,DISTRICT,Rangareddy,Urban
+28,538,DISTRICT,Mahbubnagar,Total
+28,538,DISTRICT,Mahbubnagar,Rural
+28,538,DISTRICT,Mahbubnagar,Urban
+28,539,DISTRICT,Nalgonda,Total
+28,539,DISTRICT,Nalgonda,Rural
+28,539,DISTRICT,Nalgonda,Urban
+28,540,DISTRICT,Warangal,Total
+28,540,DISTRICT,Warangal,Rural
+28,540,DISTRICT,Warangal,Urban
+28,541,DISTRICT,Khammam,Total
+28,541,DISTRICT,Khammam,Rural
+28,541,DISTRICT,Khammam,Urban
+28,542,DISTRICT,Srikakulam,Total
+28,542,DISTRICT,Srikakulam,Rural
+28,542,DISTRICT,Srikakulam,Urban
+28,543,DISTRICT,Vizianagaram,Total
+28,543,DISTRICT,Vizianagaram,Rural
+28,543,DISTRICT,Vizianagaram,Urban
+28,544,DISTRICT,Visakhapatnam,Total
+28,544,DISTRICT,Visakhapatnam,Rural
+28,544,DISTRICT,Visakhapatnam,Urban
+28,545,DISTRICT,East Godavari,Total
+28,545,DISTRICT,East Godavari,Rural
+28,545,DISTRICT,East Godavari,Urban
+28,546,DISTRICT,West Godavari,Total
+28,546,DISTRICT,West Godavari,Rural
+28,546,DISTRICT,West Godavari,Urban
+28,547,DISTRICT,Krishna,Total
+28,547,DISTRICT,Krishna,Rural
+28,547,DISTRICT,Krishna,Urban
+28,548,DISTRICT,Guntur,Total
+28,548,DISTRICT,Guntur,Rural
+28,548,DISTRICT,Guntur,Urban
+28,549,DISTRICT,Prakasam,Total
+28,549,DISTRICT,Prakasam,Rural
+28,549,DISTRICT,Prakasam,Urban
+28,550,DISTRICT,Sri Potti Sriramulu Nellore,Total
+28,550,DISTRICT,Sri Potti Sriramulu Nellore,Rural
+28,550,DISTRICT,Sri Potti Sriramulu Nellore,Urban
+28,551,DISTRICT,Y.S.R.,Total
+28,551,DISTRICT,Y.S.R.,Rural
+28,551,DISTRICT,Y.S.R.,Urban
+28,552,DISTRICT,Kurnool,Total
+28,552,DISTRICT,Kurnool,Rural
+28,552,DISTRICT,Kurnool,Urban
+28,553,DISTRICT,Anantapur,Total
+28,553,DISTRICT,Anantapur,Rural
+28,553,DISTRICT,Anantapur,Urban
+28,554,DISTRICT,Chittoor,Total
+28,554,DISTRICT,Chittoor,Rural
+28,554,DISTRICT,Chittoor,Urban
+29,0,State,KARNATAKA,Total
+29,0,State,KARNATAKA,Rural
+29,0,State,KARNATAKA,Urban
+29,555,DISTRICT,Belgaum,Total
+29,555,DISTRICT,Belgaum,Rural
+29,555,DISTRICT,Belgaum,Urban
+29,556,DISTRICT,Bagalkot ,Total
+29,556,DISTRICT,Bagalkot ,Rural
+29,556,DISTRICT,Bagalkot ,Urban
+29,557,DISTRICT,Bijapur,Total
+29,557,DISTRICT,Bijapur,Rural
+29,557,DISTRICT,Bijapur,Urban
+29,558,DISTRICT,Bidar,Total
+29,558,DISTRICT,Bidar,Rural
+29,558,DISTRICT,Bidar,Urban
+29,559,DISTRICT,Raichur,Total
+29,559,DISTRICT,Raichur,Rural
+29,559,DISTRICT,Raichur,Urban
+29,560,DISTRICT,Koppal,Total
+29,560,DISTRICT,Koppal,Rural
+29,560,DISTRICT,Koppal,Urban
+29,561,DISTRICT,Gadag,Total
+29,561,DISTRICT,Gadag,Rural
+29,561,DISTRICT,Gadag,Urban
+29,562,DISTRICT,Dharwad,Total
+29,562,DISTRICT,Dharwad,Rural
+29,562,DISTRICT,Dharwad,Urban
+29,563,DISTRICT,Uttara Kannada,Total
+29,563,DISTRICT,Uttara Kannada,Rural
+29,563,DISTRICT,Uttara Kannada,Urban
+29,564,DISTRICT,Haveri,Total
+29,564,DISTRICT,Haveri,Rural
+29,564,DISTRICT,Haveri,Urban
+29,565,DISTRICT,Bellary,Total
+29,565,DISTRICT,Bellary,Rural
+29,565,DISTRICT,Bellary,Urban
+29,566,DISTRICT,Chitradurga,Total
+29,566,DISTRICT,Chitradurga,Rural
+29,566,DISTRICT,Chitradurga,Urban
+29,567,DISTRICT,Davanagere,Total
+29,567,DISTRICT,Davanagere,Rural
+29,567,DISTRICT,Davanagere,Urban
+29,568,DISTRICT,Shimoga,Total
+29,568,DISTRICT,Shimoga,Rural
+29,568,DISTRICT,Shimoga,Urban
+29,569,DISTRICT,Udupi,Total
+29,569,DISTRICT,Udupi,Rural
+29,569,DISTRICT,Udupi,Urban
+29,570,DISTRICT,Chikmagalur,Total
+29,570,DISTRICT,Chikmagalur,Rural
+29,570,DISTRICT,Chikmagalur,Urban
+29,571,DISTRICT,Tumkur,Total
+29,571,DISTRICT,Tumkur,Rural
+29,571,DISTRICT,Tumkur,Urban
+29,572,DISTRICT,Bangalore,Total
+29,572,DISTRICT,Bangalore,Rural
+29,572,DISTRICT,Bangalore,Urban
+29,573,DISTRICT,Mandya,Total
+29,573,DISTRICT,Mandya,Rural
+29,573,DISTRICT,Mandya,Urban
+29,574,DISTRICT,Hassan,Total
+29,574,DISTRICT,Hassan,Rural
+29,574,DISTRICT,Hassan,Urban
+29,575,DISTRICT,Dakshina Kannada,Total
+29,575,DISTRICT,Dakshina Kannada,Rural
+29,575,DISTRICT,Dakshina Kannada,Urban
+29,576,DISTRICT,Kodagu,Total
+29,576,DISTRICT,Kodagu,Rural
+29,576,DISTRICT,Kodagu,Urban
+29,577,DISTRICT,Mysore,Total
+29,577,DISTRICT,Mysore,Rural
+29,577,DISTRICT,Mysore,Urban
+29,578,DISTRICT,Chamarajanagar,Total
+29,578,DISTRICT,Chamarajanagar,Rural
+29,578,DISTRICT,Chamarajanagar,Urban
+29,579,DISTRICT,Gulbarga,Total
+29,579,DISTRICT,Gulbarga,Rural
+29,579,DISTRICT,Gulbarga,Urban
+29,580,DISTRICT,Yadgir,Total
+29,580,DISTRICT,Yadgir,Rural
+29,580,DISTRICT,Yadgir,Urban
+29,581,DISTRICT,Kolar,Total
+29,581,DISTRICT,Kolar,Rural
+29,581,DISTRICT,Kolar,Urban
+29,582,DISTRICT,Chikkaballapura,Total
+29,582,DISTRICT,Chikkaballapura,Rural
+29,582,DISTRICT,Chikkaballapura,Urban
+29,583,DISTRICT,Bangalore Rural,Total
+29,583,DISTRICT,Bangalore Rural,Rural
+29,583,DISTRICT,Bangalore Rural,Urban
+29,584,DISTRICT,Ramanagara,Total
+29,584,DISTRICT,Ramanagara,Rural
+29,584,DISTRICT,Ramanagara,Urban
+30,0,State,GOA,Total
+30,0,State,GOA,Rural
+30,0,State,GOA,Urban
+30,585,DISTRICT,North Goa,Total
+30,585,DISTRICT,North Goa,Rural
+30,585,DISTRICT,North Goa,Urban
+30,586,DISTRICT,South Goa,Total
+30,586,DISTRICT,South Goa,Rural
+30,586,DISTRICT,South Goa,Urban
+31,0,State,LAKSHADWEEP,Total
+31,0,State,LAKSHADWEEP,Rural
+31,0,State,LAKSHADWEEP,Urban
+31,587,DISTRICT,Lakshadweep,Total
+31,587,DISTRICT,Lakshadweep,Rural
+31,587,DISTRICT,Lakshadweep,Urban
+32,0,State,KERALA,Total
+32,0,State,KERALA,Rural
+32,0,State,KERALA,Urban
+32,588,DISTRICT,Kasaragod,Total
+32,588,DISTRICT,Kasaragod,Rural
+32,588,DISTRICT,Kasaragod,Urban
+32,589,DISTRICT,Kannur,Total
+32,589,DISTRICT,Kannur,Rural
+32,589,DISTRICT,Kannur,Urban
+32,590,DISTRICT,Wayanad,Total
+32,590,DISTRICT,Wayanad,Rural
+32,590,DISTRICT,Wayanad,Urban
+32,591,DISTRICT,Kozhikode,Total
+32,591,DISTRICT,Kozhikode,Rural
+32,591,DISTRICT,Kozhikode,Urban
+32,592,DISTRICT,Malappuram,Total
+32,592,DISTRICT,Malappuram,Rural
+32,592,DISTRICT,Malappuram,Urban
+32,593,DISTRICT,Palakkad,Total
+32,593,DISTRICT,Palakkad,Rural
+32,593,DISTRICT,Palakkad,Urban
+32,594,DISTRICT,Thrissur,Total
+32,594,DISTRICT,Thrissur,Rural
+32,594,DISTRICT,Thrissur,Urban
+32,595,DISTRICT,Ernakulam,Total
+32,595,DISTRICT,Ernakulam,Rural
+32,595,DISTRICT,Ernakulam,Urban
+32,596,DISTRICT,Idukki ,Total
+32,596,DISTRICT,Idukki ,Rural
+32,596,DISTRICT,Idukki ,Urban
+32,597,DISTRICT,Kottayam,Total
+32,597,DISTRICT,Kottayam,Rural
+32,597,DISTRICT,Kottayam,Urban
+32,598,DISTRICT,Alappuzha,Total
+32,598,DISTRICT,Alappuzha,Rural
+32,598,DISTRICT,Alappuzha,Urban
+32,599,DISTRICT,Pathanamthitta,Total
+32,599,DISTRICT,Pathanamthitta,Rural
+32,599,DISTRICT,Pathanamthitta,Urban
+32,600,DISTRICT,Kollam,Total
+32,600,DISTRICT,Kollam,Rural
+32,600,DISTRICT,Kollam,Urban
+32,601,DISTRICT,Thiruvananthapuram,Total
+32,601,DISTRICT,Thiruvananthapuram,Rural
+32,601,DISTRICT,Thiruvananthapuram,Urban
+33,0,State,TAMIL NADU,Total
+33,0,State,TAMIL NADU,Rural
+33,0,State,TAMIL NADU,Urban
+33,602,DISTRICT,Thiruvallur,Total
+33,602,DISTRICT,Thiruvallur,Rural
+33,602,DISTRICT,Thiruvallur,Urban
+33,603,DISTRICT,Chennai,Total
+33,603,DISTRICT,Chennai,Rural
+33,603,DISTRICT,Chennai,Urban
+33,604,DISTRICT,Kancheepuram,Total
+33,604,DISTRICT,Kancheepuram,Rural
+33,604,DISTRICT,Kancheepuram,Urban
+33,605,DISTRICT,Vellore,Total
+33,605,DISTRICT,Vellore,Rural
+33,605,DISTRICT,Vellore,Urban
+33,606,DISTRICT,Tiruvannamalai,Total
+33,606,DISTRICT,Tiruvannamalai,Rural
+33,606,DISTRICT,Tiruvannamalai,Urban
+33,607,DISTRICT,Viluppuram,Total
+33,607,DISTRICT,Viluppuram,Rural
+33,607,DISTRICT,Viluppuram,Urban
+33,608,DISTRICT,Salem,Total
+33,608,DISTRICT,Salem,Rural
+33,608,DISTRICT,Salem,Urban
+33,609,DISTRICT,Namakkal   ,Total
+33,609,DISTRICT,Namakkal   ,Rural
+33,609,DISTRICT,Namakkal   ,Urban
+33,610,DISTRICT,Erode,Total
+33,610,DISTRICT,Erode,Rural
+33,610,DISTRICT,Erode,Urban
+33,611,DISTRICT,The Nilgiris,Total
+33,611,DISTRICT,The Nilgiris,Rural
+33,611,DISTRICT,The Nilgiris,Urban
+33,612,DISTRICT,Dindigul,Total
+33,612,DISTRICT,Dindigul,Rural
+33,612,DISTRICT,Dindigul,Urban
+33,613,DISTRICT,Karur ,Total
+33,613,DISTRICT,Karur ,Rural
+33,613,DISTRICT,Karur ,Urban
+33,614,DISTRICT,Tiruchirappalli,Total
+33,614,DISTRICT,Tiruchirappalli,Rural
+33,614,DISTRICT,Tiruchirappalli,Urban
+33,615,DISTRICT,Perambalur  ,Total
+33,615,DISTRICT,Perambalur  ,Rural
+33,615,DISTRICT,Perambalur  ,Urban
+33,616,DISTRICT,Ariyalur  ,Total
+33,616,DISTRICT,Ariyalur  ,Rural
+33,616,DISTRICT,Ariyalur  ,Urban
+33,617,DISTRICT,Cuddalore,Total
+33,617,DISTRICT,Cuddalore,Rural
+33,617,DISTRICT,Cuddalore,Urban
+33,618,DISTRICT,Nagapattinam  ,Total
+33,618,DISTRICT,Nagapattinam  ,Rural
+33,618,DISTRICT,Nagapattinam  ,Urban
+33,619,DISTRICT,Thiruvarur,Total
+33,619,DISTRICT,Thiruvarur,Rural
+33,619,DISTRICT,Thiruvarur,Urban
+33,620,DISTRICT,Thanjavur,Total
+33,620,DISTRICT,Thanjavur,Rural
+33,620,DISTRICT,Thanjavur,Urban
+33,621,DISTRICT,Pudukkottai,Total
+33,621,DISTRICT,Pudukkottai,Rural
+33,621,DISTRICT,Pudukkottai,Urban
+33,622,DISTRICT,Sivaganga,Total
+33,622,DISTRICT,Sivaganga,Rural
+33,622,DISTRICT,Sivaganga,Urban
+33,623,DISTRICT,Madurai,Total
+33,623,DISTRICT,Madurai,Rural
+33,623,DISTRICT,Madurai,Urban
+33,624,DISTRICT,Theni  ,Total
+33,624,DISTRICT,Theni  ,Rural
+33,624,DISTRICT,Theni  ,Urban
+33,625,DISTRICT,Virudhunagar,Total
+33,625,DISTRICT,Virudhunagar,Rural
+33,625,DISTRICT,Virudhunagar,Urban
+33,626,DISTRICT,Ramanathapuram,Total
+33,626,DISTRICT,Ramanathapuram,Rural
+33,626,DISTRICT,Ramanathapuram,Urban
+33,627,DISTRICT,Thoothukkudi,Total
+33,627,DISTRICT,Thoothukkudi,Rural
+33,627,DISTRICT,Thoothukkudi,Urban
+33,628,DISTRICT,Tirunelveli ,Total
+33,628,DISTRICT,Tirunelveli ,Rural
+33,628,DISTRICT,Tirunelveli ,Urban
+33,629,DISTRICT,Kanniyakumari,Total
+33,629,DISTRICT,Kanniyakumari,Rural
+33,629,DISTRICT,Kanniyakumari,Urban
+33,630,DISTRICT,Dharmapuri,Total
+33,630,DISTRICT,Dharmapuri,Rural
+33,630,DISTRICT,Dharmapuri,Urban
+33,631,DISTRICT,Krishnagiri,Total
+33,631,DISTRICT,Krishnagiri,Rural
+33,631,DISTRICT,Krishnagiri,Urban
+33,632,DISTRICT,Coimbatore,Total
+33,632,DISTRICT,Coimbatore,Rural
+33,632,DISTRICT,Coimbatore,Urban
+33,633,DISTRICT,Tiruppur,Total
+33,633,DISTRICT,Tiruppur,Rural
+33,633,DISTRICT,Tiruppur,Urban
+35,0,State,ANDAMAN & NICOBAR ISLANDS,Total
+35,0,State,ANDAMAN & NICOBAR ISLANDS,Rural
+35,0,State,ANDAMAN & NICOBAR ISLANDS,Urban
+35,638,DISTRICT,Nicobars,Total
+35,638,DISTRICT,Nicobars,Rural
+35,638,DISTRICT,Nicobars,Urban
+35,639,DISTRICT,North  & Middle Andaman,Total
+35,639,DISTRICT,North  & Middle Andaman,Rural
+35,639,DISTRICT,North  & Middle Andaman,Urban
+35,640,DISTRICT,South Andaman,Total
+35,640,DISTRICT,South Andaman,Rural
+35,640,DISTRICT,South Andaman,Urban
