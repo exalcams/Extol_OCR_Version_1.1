@@ -40,7 +40,7 @@ app=Flask(__name__)
 @app.route('/')
 def home():
     Tab_data=[["Table"]]
-    return render_template("home.html", ImgArr='', address='',Vname='',Address='',POCRtot='',stcde='',POCRext='',Bank='',inar='',BuyerGST='',BuyerPAN='',GSTans='',PANans='',name ='',ddvalue='',date='',PO='',acc='',ifc='',Paytm='',Tab_data=Tab_data,len=len(Tab_data))  
+    return render_template("home.html", ImgArr='',base='' ,address='',Vname='',Address='',POCRtot='',stcde='',POCRext='',Bank='',inar='',BuyerGST='',BuyerPAN='',GSTans='',PANans='',name ='',ddvalue='',date='',PO='',acc='',ifc='',Paytm='',Tab_data=Tab_data,len=len(Tab_data))  
 
 @app.route('/home', methods = ['POST','GET'])  
 def success(): 
@@ -172,14 +172,17 @@ def success():
                     POCRGross,POCRTax,POCRtot,POCRext=EO_func_list.total_amount_extraction(Im2txt[10],POCRamt,EOCRamt,EOCRamtt)
                     if POCRGross=='Not Found':
                         POCRGross,POCRTax,POCRtot,POCRext=EO_func_list.total_amount_extraction(Im2txt[3],POCRamt,EOCRamt,EOCRamtt)
-                    POCRcgst,POCRsgst,POCRigst='Not Found','Not Found','Not Found'
+                    POCRbase,POCRcgst,POCRsgst,POCRigst='Not Found','Not Found','Not Found','Not Found'
                     if POCRTax != "Not Found":
                         if len(POCRTax)==3:
+                            POCRbase=POCRTax[0]
                             POCRcgst=POCRTax[1]
                             POCRsgst=POCRTax[2]
                         elif len(POCRTax)==2:
+                            POCRbase=POCRTax[0]
                             POCRigst=POCRTax[1]
                     else:
+                        POCRbase = 'Not Found'
                         POCRcgst = 'Not Found'
                         POCRsgst = 'Not Found'
                         POCRigst = 'Not Found'
@@ -360,14 +363,17 @@ def success():
                     POCRGross,POCRTax,POCRtot,POCRext=EO_func_list.total_amount_extraction(Im2txt[10],POCRamt,EOCRamt,EOCRamtt)
                     if POCRGross=='Not Found':
                         POCRGross,POCRTax,POCRtot,POCRext=EO_func_list.total_amount_extraction(Im2txt[3],POCRamt,EOCRamt,EOCRamtt)
-                    POCRcgst,POCRsgst,POCRigst='Not Found','Not Found','Not Found'
+                    POCRbase,POCRcgst,POCRsgst,POCRigst='Not Found','Not Found','Not Found','Not Found'
                     if POCRTax != "Not Found":
                         if len(POCRTax)==3:
+                            POCRbase=POCRTax[0]
                             POCRcgst=POCRTax[1]
                             POCRsgst=POCRTax[2]
                         elif len(POCRTax)==2:
+                            POCRbase=POCRTax[0]
                             POCRigst=POCRTax[1]
                     else:
+                        POCRbase = 'Not Found'
                         POCRcgst = 'Not Found'
                         POCRsgst = 'Not Found'
                         POCRigst = 'Not Found'
@@ -533,7 +539,7 @@ def success():
                             inar=(get_eocr_pocr(inar[0],Im2txt[8]),inar[1])
                     
                 print(POCRamtword)
-                return render_template("home.html",Gross=POCRGross,cgst=POCRcgst,sgst=POCRsgst,stcde=stcde,inar=inar,POCRtot=POCRtot,POCRext=POCRext,igst=POCRigst,BuyerGST=BuyerGST,BuyerPAN=BuyerPAN,ImgArr=ImgArr,Bank=POCRBank,PO=POCRpurchase_order,Address=Address,acc=POCRacc,ifc=POCRifc, name = f.filename,amt=POCRamt,amtword=POCRamtword,ddvalue=ddvalue,GSTans=GSTans,PANans=PANans,Vname=POCRVname,date=final_date_EOCR,Paytm=POCRPaytm,Tab_data=Tab_data,len=len(Tab_data)) 
+                return render_template("home.html",Gross=POCRGross,base=POCRbase,cgst=POCRcgst,sgst=POCRsgst,stcde=stcde,inar=inar,POCRtot=POCRtot,POCRext=POCRext,igst=POCRigst,BuyerGST=BuyerGST,BuyerPAN=BuyerPAN,ImgArr=ImgArr,Bank=POCRBank,PO=POCRpurchase_order,Address=Address,acc=POCRacc,ifc=POCRifc, name = f.filename,amt=POCRamt,amtword=POCRamtword,ddvalue=ddvalue,GSTans=GSTans,PANans=PANans,Vname=POCRVname,date=final_date_EOCR,Paytm=POCRPaytm,Tab_data=Tab_data,len=len(Tab_data)) 
 
             #### ELSE CONDITION (IMAGE INPUT) STARTS HERE ###
             else:
@@ -646,14 +652,17 @@ def success():
                     POCRGross,POCRTax,POCRtot,POCRext=EO_func_list.total_amount_extraction(Im2txt[10],POCRamt,EOCRamt,EOCRamtt)
                     if POCRGross=='Not Found':
                         POCRGross,POCRTax,POCRtot,POCRext=EO_func_list.total_amount_extraction(Im2txt[3],POCRamt,EOCRamt,EOCRamtt)
-                    POCRcgst,POCRsgst,POCRigst='Not Found','Not Found','Not Found'
+                    POCRbase,POCRcgst,POCRsgst,POCRigst='Not Found','Not Found','Not Found','Not Found'
                     if POCRTax != "Not Found":
                         if len(POCRTax)==3:
+                            POCRbase=POCRTax[0]
                             POCRcgst=POCRTax[1]
                             POCRsgst=POCRTax[2]
                         elif len(POCRTax)==2:
+                            POCRbase=POCRTax[0]
                             POCRigst=POCRTax[1]
                     else:
+                        POCRbase = 'Not Found'
                         POCRcgst = 'Not Found'
                         POCRsgst = 'Not Found'
                         POCRigst = 'Not Found'
@@ -833,14 +842,17 @@ def success():
                     POCRGross,POCRTax,POCRtot,POCRext=EO_func_list.total_amount_extraction(Im2txt[10],POCRamt,EOCRamt,EOCRamtt)
                     if POCRGross=='Not Found':
                         POCRGross,POCRTax,POCRtot,POCRext=EO_func_list.total_amount_extraction(Im2txt[3],POCRamt,EOCRamt,EOCRamtt)
-                    POCRcgst,POCRsgst,POCRigst='Not Found','Not Found','Not Found'
+                    POCRbase,POCRcgst,POCRsgst,POCRigst='Not Found','Not Found','Not Found','Not Found'
                     if POCRTax != "Not Found":
                         if len(POCRTax)==3:
+                            POCRbase=POCRTax[0]
                             POCRcgst=POCRTax[1]
                             POCRsgst=POCRTax[2]
                         elif len(POCRTax)==2:
+                            POCRbase=POCRTax[0]
                             POCRigst=POCRTax[1]
                     else:
+                        POCRbase = 'Not Found'
                         POCRcgst = 'Not Found'
                         POCRsgst = 'Not Found'
                         POCRigst = 'Not Found'
@@ -1003,7 +1015,7 @@ def success():
                         else:
                             inar=(get_eocr_pocr(inar[0],Im2txt[8]),inar[1])
                 print(POCRamtword)
-                return render_template("home.html",Gross=POCRGross,cgst=POCRcgst,stcde=stcde,sgst=POCRsgst,inar=inar,POCRtot=POCRtot,POCRext=POCRext,igst=POCRigst,ImgArr=ImgArr,BuyerGST=BuyerGST,BuyerPAN=BuyerPAN,Bank=POCRBank,PO=POCRpurchase_order,Address=Address,acc=POCRacc,ifc=POCRifc, name = f.filename,amt=POCRamt,amtword=POCRamtword,ddvalue=ddvalue,GSTans=GSTans,PANans=PANans,Vname=POCRVname,date=final_date_EOCR,Paytm=POCRPaytm,Tab_data=Tab_data,len=len(Tab_data)) 
+                return render_template("home.html",Gross=POCRGross,cgst=POCRcgst,base=POCRbase,stcde=stcde,sgst=POCRsgst,inar=inar,POCRtot=POCRtot,POCRext=POCRext,igst=POCRigst,ImgArr=ImgArr,BuyerGST=BuyerGST,BuyerPAN=BuyerPAN,Bank=POCRBank,PO=POCRpurchase_order,Address=Address,acc=POCRacc,ifc=POCRifc, name = f.filename,amt=POCRamt,amtword=POCRamtword,ddvalue=ddvalue,GSTans=GSTans,PANans=PANans,Vname=POCRVname,date=final_date_EOCR,Paytm=POCRPaytm,Tab_data=Tab_data,len=len(Tab_data)) 
 
     #### DROPDOWN CODE ####
         if 'form1' in request.form:
@@ -1108,14 +1120,17 @@ def success():
                 POCRGross,POCRTax,POCRtot,POCRext=EO_func_list.total_amount_extraction(Im2txt[10],POCRamt,EOCRamt,EOCRamtt)
                 if POCRGross=='Not Found':
                         POCRGross,POCRTax,POCRtot,POCRext=EO_func_list.total_amount_extraction(Im2txt[3],POCRamt,EOCRamt,EOCRamtt)
-                POCRcgst,POCRsgst,POCRigst='Not Found','Not Found','Not Found'
+                POCRbase,POCRcgst,POCRsgst,POCRigst='Not Found','Not Found','Not Found','Not Found'
                 if POCRTax != "Not Found":
                     if len(POCRTax)==3:
+                        POCRbase=POCRTax[0]
                         POCRcgst=POCRTax[1]
                         POCRsgst=POCRTax[2]
                     elif len(POCRTax)==2:
+                        POCRbase=POCRTax[0]
                         POCRigst=POCRTax[1]
                 else:
+                    POCRbase = 'Not Found'
                     POCRcgst = 'Not Found'
                     POCRsgst = 'Not Found'
                     POCRigst = 'Not Found'
@@ -1295,14 +1310,17 @@ def success():
                 POCRGross,POCRTax,POCRtot,POCRext=EO_func_list.total_amount_extraction(Im2txt[10],POCRamt,EOCRamt,EOCRamtt)
                 if POCRGross=='Not Found':
                     POCRGross,POCRTax,POCRtot,POCRext=EO_func_list.total_amount_extraction(Im2txt[3],POCRamt,EOCRamt,EOCRamtt)
-                POCRcgst,POCRsgst,POCRigst='Not Found','Not Found','Not Found'
+                POCRbase,POCRcgst,POCRsgst,POCRigst='Not Found','Not Found','Not Found','Not Found'
                 if POCRTax != "Not Found":
                     if len(POCRTax)==3:
+                        POCRbase=POCRTax[0]
                         POCRcgst=POCRTax[1]
                         POCRsgst=POCRTax[2]
                     elif len(POCRTax)==2:
+                        POCRbase=POCRTax[0]
                         POCRigst=POCRTax[1]
                 else:
+                    POCRbase = 'Not Found'
                     POCRcgst = 'Not Found'
                     POCRsgst = 'Not Found'
                     POCRigst = 'Not Found'
@@ -1465,7 +1483,7 @@ def success():
                     else:
                         inar=(get_eocr_pocr(inar[0],Im2txt[8]),inar[1])
             print(POCRamtword)
-            return render_template("home.html",Gross=POCRGross,cgst=POCRcgst,stcde=stcde,sgst=POCRsgst,inar=inar,igst=POCRigst,POCRtot=POCRtot,POCRext=POCRext,ImgArr=ImgArr,BuyerGST=BuyerGST,BuyerPAN=BuyerPAN,Bank=POCRBank,PO=POCRpurchase_order,Address=Address,acc=POCRacc,ifc=POCRifc, name = f.filename,amt=POCRamt,amtword=POCRamtword,ddvalue=ddvalue,GSTans=GSTans,PANans=PANans,Vname=POCRVname,date=final_date_EOCR,Paytm=POCRPaytm,Tab_data=Tab_data,len=len(Tab_data)) 
+            return render_template("home.html",Gross=POCRGross,cgst=POCRcgst,base=POCRbase,stcde=stcde,sgst=POCRsgst,inar=inar,igst=POCRigst,POCRtot=POCRtot,POCRext=POCRext,ImgArr=ImgArr,BuyerGST=BuyerGST,BuyerPAN=BuyerPAN,Bank=POCRBank,PO=POCRpurchase_order,Address=Address,acc=POCRacc,ifc=POCRifc, name = f.filename,amt=POCRamt,amtword=POCRamtword,ddvalue=ddvalue,GSTans=GSTans,PANans=PANans,Vname=POCRVname,date=final_date_EOCR,Paytm=POCRPaytm,Tab_data=Tab_data,len=len(Tab_data)) 
 
 if __name__ == "__main__":
     app.run()
