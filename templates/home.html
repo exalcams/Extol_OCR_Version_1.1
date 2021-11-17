@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>Exalca</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- <script src="./static/upload.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+        integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+        body {
+            /* background: -webkit-linear-gradient(bottom, #bffddb, #b2ec93); */
+            background: #f4f5f5;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 0 0 0.5%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        .h1 {
+            font-family: fantasy;
+            font-weight: bold;
+            text-align: center;
+            position: relative;
+            left: 40%;
+            bottom: 5%;
+            width: auto;
+            height: 85%;
+            margin: 3px 0 5px 0;
+        }
+
+        label {
+            width: 30%;
+        }
+
+        .progress {
+            width: 40%;
+        }
+
+        #navbar {
+            overflow: hidden;
+            background-image: linear-gradient(to right, rgba(250, 164, 164, 0.808), rgb(245, 242, 240));
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 30px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            place-content: space-between;
+        }
+
+        table {
+            width: max-content;
+            empty-cells: show;
+            border-collapse: collapse;
+            font-family: Arial;
+            letter-spacing: -1px;
+        }
+
+        td,
+        th {
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        #navbar a {
+            float: left;
+            display: block;
+            color: #666;
+            text-align: center;
+            padding-right: 20px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        #navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        #navbar a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .file-box {
+            display: inline-block;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            width: 90%;
+            height: 30px;
+            border: 1px solid;
+            border: 1px solid black;
+            border-right: transparent;
+            color: rgb(219, 210, 210);
+        }
+
+        .file-button {
+            display: inline-block;
+            line-height: 25px;
+            background: indigo;
+            height: 30px;
+            color: white;
+            width: 25%;
+        }
+
+        img {
+            width: 100%;
+            position: relative;
+            top: 0%;
+        }
+
+        .opt_div {
+            height: calc(100% - 200px);
+            display: flex;
+            flex-direction: row;
+            place-content: space-around;
+            gap: 50px;
+            margin: 0 40px 0 40px;
+        }
+
+        .img-magnifier-container {
+            width: 100%;
+            height: calc(100% - 30px);
+            overflow: auto;
+            position: absolute;
+            top: 30px;
+        }
+
+
+
+        .hom_icon {
+            font-size: 13px;
+        }
+
+        .hom_icon:hover {
+            font-size: 18px;
+        }
+
+        .btn {
+            border: 1px solid black;
+            font-weight: bold;
+            color: black;
+            position: relative;
+            right: 5%;
+            padding: 0 6px 0 6px;
+        }
+
+        .lidiv {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            place-content: space-between;
+        }
+
+        .remove-box {
+            display: inline-block;
+            height: 30px;
+            width: 5%;
+            border: 1px solid;
+            border: 1px solid black;
+            border-left: transparent;
+            color: rgb(219, 210, 210);
+        }
+
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+            -webkit-animation-name: fadeIn;
+            /* Fade in the background */
+            -webkit-animation-duration: 0.4s;
+            animation-name: fadeIn;
+            animation-duration: 0.4s
+        }
+
+        /* Modal Content */
+        .modal-content {
+            box-shadow: none;
+            border-radius: 4px;
+            position: relative;
+            margin: auto;
+            padding: 0;
+            background-color: #fefefe;
+            width: 60%;
+            -webkit-animation-name: slideIn;
+            -webkit-animation-duration: 0.4s;
+            animation-name: slideIn;
+            animation-duration: 0.4s
+        }
+
+        /* The Close Button */
+        .close {
+            color: white;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .modal-header {
+            padding: 2px 16px;
+            background-color: #5cb85c;
+            color: white;
+        }
+
+        .modal-body {
+            padding: 2px 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+        }
+
+        .modal-footer {
+            padding: 2px 16px;
+            background-color: #5cb85c;
+            color: white;
+        }
+
+        /* Add Animation */
+        @-webkit-keyframes slideIn {
+            from {
+                bottom: -300px;
+                opacity: 0
+            }
+
+            to {
+                bottom: 0;
+                opacity: 1
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                bottom: -300px;
+                opacity: 0
+            }
+
+            to {
+                bottom: 0;
+                opacity: 1
+            }
+        }
+
+        @-webkit-keyframes fadeIn {
+            from {
+                opacity: 0
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        .loader {
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #3498db;
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 2s linear infinite;
+            /* Safari */
+            animation: spin 2s linear infinite;
+        }
+
+        /* Safari */
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .animate {
+            -webkit-animation-name: horizontalProgressBar;
+            animation-name: horizontalProgressBar;
+            -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+            background: #6041e7;
+            height: 100%;
+            position: relative;
+            left: 0;
+            top: 0;
+            width: 95%;
+            animation-duration: 180s;
+        }
+        @keyframes horizontalProgressBar {
+            0% {
+                width: 0%;
+            }
+
+            10% {
+                width: 10%;
+            }
+
+            20% {
+                width: 20%;
+            }
+
+            30% {
+                width: 30%;
+            }
+
+            40% {
+                width: 40%;
+            }
+
+            50% {
+                width: 50%;
+            }
+
+            60% {
+                width: 55%;
+            }
+
+            70% {
+                width: 60%;
+            }
+
+            80% {
+                width: 70%;
+            }
+            90% {
+                width: 80%;
+            }
+            95% {
+                width: 90%;
+            }
+            100% {
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div style="width: 100%;background:#eceaea;height: 60px;">
+        <img src="../static/MicrosoftTeams-image (5).png" class="h1">
+        <span style="flex: 1 1 auto;"></span>
+        <img src="../static/poweredbyexalca.svg"
+            style="width: 80px;height: 30px;margin: 20px auto;position: absolute;right: 10px;">
+    </div>
+
+    <div style="margin: 0 40px 0 40px;">
+        <div style="display: flex; flex-direction: column;">
+            <form action="/home" method="post" enctype="multipart/form-data"
+                style="display: flex; flex-direction: row;width: 100%;gap: 20px;">
+                <div style="display: flex;flex-direction: row;width: 38%;">
+                    <label for="media" style="display: flex; flex-direction: row;gap: 25px;width: 100%;">
+                        <span class="file-button">
+                            <span style="position: relative; left: 10%;top: 6%;">Select File</span>
+                        </span>
+                        <span id="file-name" class="file-box">
+                            <span id="flebox" style="margin-left:15px;">Upload your files</span>
+                        </span>
+                    </label>
+                    <span class="remove-box" id="remove-box"><i class="fa fa-remove" id="remove"
+                            (onclick)="removeElement()" style="color: transparent;"></i></span>
+                </div>
+                <input type="file" id="media" class="fileupload" name="media" style="display: none;"
+                    onchange='uploadFile(this)' />
+                <button type="submit" id="EnableDisable" value="Upload" name="form" onclick='Fade()'
+                    disabled="disabled">
+                    <i class="fa fa-upload">Upload</i>
+                </button>
+            </form>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close"><i class="fa fa-remove"></i></span>
+                    <div class="modal-body">
+                        <img src="../static/relax.svg" style="width: 100%; height: 198px;">
+                        <br>
+                        <p>Sit back and relax, This may take 3 mins</p>
+                        <div class="progress">
+                            <div id="yourElement" class="progress-bar" role="progressbar" aria-valuenow="0"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dialog Model -->
+            <script>
+                // Get the modal
+                var modal = document.getElementById("myModal");
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("EnableDisable");
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal 
+                btn.onclick = function () {
+                    modal.style.display = "block";
+                    document.getElementById("yourElement").classList.toggle("animate");
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function () {
+                    modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function (event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            </script>
+            <script>
+                function uploadFile(target) {
+                    document.getElementById("file-name").innerHTML = target.files[0].name;
+                    var fname = target.files[0].name;
+                    if (fname != "") {
+                        document.getElementById("EnableDisable").disabled = false;
+                        document.getElementById("file-name").style.color = "black"
+                        document.getElementById("remove").style.color = "red"
+                        document.getElementById("remove").style.position = "relative"
+                        document.getElementById("remove").style.top = "12%"
+                        document.getElementById("remove").style.cursor = "pointer"
+                        document.getElementById("flebox").style.marginLeft = "15px"
+
+                    }
+                    else {
+                        document.getElementById("EnableDisable").disabled = true;
+                    }
+
+                }
+            </script>
+
+            <script>
+                document.getElementById('remove-box').onclick = function () {
+                    document.getElementById("EnableDisable").disabled = true;
+                    document.getElementById("remove").style.color = "transparent"
+                    document.getElementById('file-name').innerHTML = 'Upload your files';
+                    document.getElementById('file-name').style.color = "rgb(219, 210, 210)"
+                    document.getElementById("flebox").style.marginLeft = "15px"
+                }
+
+            </script>
+        </div>
+
+        <div style="display: flex;flex-direction: row;width: 100%;">
+            <div style="display: flex;flex-direction: column;width: 50%;">
+                <p style="font-size: 18px; font-weight: bold;">File Name: <span
+                        style="color: blue;font-size: 18px;">{{name}}</span></p>
+            </div>
+            <div>
+                <form method="POST" action="/home" style="position: relative; top: 30%;float: right;">
+                    <select name="dropdown" style="width: 300px; height: 30px;">
+                        <option>--Select the page--</option>
+                        {% for x in ImgArr %}
+                        <option value="{{x}}">{{x}}</option>
+                        {% endfor %}
+                    </select>
+                    <input style="height: 30px; background-color: lightgreen;" type="submit" id="EnableDisable"
+                        name="form1">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="opt_div">
+        <div style="display: flex; flex-direction: column; width: 50%;position: relative;">
+
+            <div id="navbar">
+
+                <div>
+                    <span style="color: white;position: relative;left: 5%;font-weight: bold;">{{ddvalue}}</span>
+                </div>
+
+                <div>
+                    <button class="btn" type="button" onclick="zoomin()"> + </button>
+                    <button class="btn" type="button" onclick="zoomout()"> - </button>
+                </div>
+
+            </div>
+
+            {% if ddvalue != '' %}
+            <div class="img-magnifier-container">
+                <img id="map" src="{{url_for('static',filename='Pdf2Img/'+ddvalue)}}" alt="User Image">
+            </div>
+            {% else %}
+            <div class="img-magnifier-container">
+                <img id="map" src="{{url_for('static',filename='sampleimg.png')}}" alt="User Image">
+            </div>
+            {% endif %}
+
+
+            <script>
+                function zoomin() {
+                    var myImg = document.getElementById("map");
+                    var currWidth = myImg.clientWidth;
+                    var currHeight = myImg.clientHeight;
+
+                    if (currWidth == 2500) return false;
+                    else {
+                        myImg.style.width = (currWidth + 100) + "px";
+                    }
+
+                    if (currHeight == 2500) return false;
+                    else {
+                        myImg.style.height = (currHeight + 100) + "px";
+                    }
+                }
+
+                function zoomout() {
+                    var myImg = document.getElementById("map");
+                    var currWidth = myImg.clientWidth;
+                    var currHeight = myImg.clientHeight;
+
+                    if (currWidth == 100) return false;
+                    else {
+                        myImg.style.width = (currWidth - 100) + "px";
+                    }
+
+                    if (currHeight == 100) return false;
+                    else {
+                        myImg.style.height = (currHeight - 100) + "px";
+                    }
+                }
+            </script>
+
+        </div>
+
+        <div style="display: flex; flex-direction: column; width: 50%;position: relative;right: 2%;overflow: auto;">
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;color:blue;">Field Name</p>
+                <p style="font-size: 18px;font-weight: bold;width: 50%;color:blue;">Values</p>
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Invoice No :</p>
+                <p style="font-size: 14px;width: 50%;">{{inar[0]|upper}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Invoice Date :</p>
+                <p style="font-size: 14px;width: 50%;">{{date[0]}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">PO Number :</p>
+                <p style="font-size: 14px;width: 50%;">{{PO[0]}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">State Code :</p>
+                <p style="font-size: 14px;width: 50%;">{{stcde[0]}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Vendor GSTIN :</p>
+                <p style="font-size: 14px;width: 50%;">{{GSTans[0]}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Extracted PAN :</p>
+                <p style="font-size: 14px;width: 50%;">{{PANans[0]}}</p>
+
+            </div>
+            <!-- <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Buyer GSTIN :</p>
+                <p style="font-size: 14px;width: 50%;">{{BuyerGST[0]}}</p>
+                
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Buyer PAN :</p>
+                <p style="font-size: 14px;width: 50%;">{{BuyerPAN[0]}}</p>
+                
+            </div> -->
+
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Vendor Name :</p>
+                <p style="font-size: 14px;width: 50%;">{{Vname[0]}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Vendor Address :</p>
+                <p style="font-size: 14px;width: 50%;">{{Address[0]}}</p>
+
+            </div>
+
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width:50%;">Payment Terms :</p>
+                <p style="font-size: 14px;width: 50%;">{{Paytm[0]}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">CGST :</p>
+                <p style="font-size: 14px;width: 50%;">{{cgst}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">SGST :</p>
+                <p style="font-size: 14px;width: 50%;">{{sgst}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">IGST :</p>
+                <p style="font-size: 14px;width: 50%;">{{igst}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Extracted Amount :</p>
+                <p style="font-size: 14px;width: 50%;">{{Gross}}</p>
+
+            </div>
+            {% if POCRtot!="Not Found" %}
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Total Amount :</p>
+                <p style="font-size: 14px;width: 50%;">{{POCRtot}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Extra Charges :</p>
+                <p style="font-size: 14px;width: 50%;">{{POCRext}}</p>
+
+            </div>
+            {% endif %}
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Converted Amount :</p>
+                <p style="font-size: 14px;width: 50%;">{{amt}}</p>
+
+            </div>
+
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Amount in words :</p>
+                <p style="font-size: 14px;width: 50%;">{{amtword}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Bank Name :</p>
+                <p style="font-size: 14px;width: 50%;">{{Bank[0]}}</p>
+
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">Account No :</p>
+                <p style="font-size: 14px;width: 50%;">{{acc[0]}}</p>
+            </div>
+            <div class="lidiv">
+                <p style="font-size: 18px; font-weight: bold;width: 50%;">IFSC Code :</p>
+                <p style="font-size: 14px;width: 50%;">{{ifc[0]}}</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div style="overflow: auto;margin: 0 40px 0 40px;">
+        <table border="1" cellpadding="5" cellspacing="25">
+            {% for i in range(len) %}
+            <tr>
+                {% for x in Tab_data[i] %}
+                <td>{{x|join(' ')}}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>
+
+</html>
